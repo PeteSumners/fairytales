@@ -40,3 +40,7 @@ NUL
 *.mp4
 *.ogv
 cache/video/
+*.png
+*.jpg
+*.jpeg
+*.gif
