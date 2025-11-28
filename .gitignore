@@ -1,5 +1,6 @@
-# Cache - downloaded audio, images, gutenberg sources (13GB+)
-cache/
+# Cache - gutenberg sources, images (exclude audio which we keep)
+cache/gutenberg/
+cache/images/
 
 # Generated output - processed stories
 output/
@@ -35,3 +36,4 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+NUL
