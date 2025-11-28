@@ -37,3 +37,6 @@ Thumbs.db
 *.tmp
 *.bak
 NUL
+*.mp4
+*.ogv
+cache/video/
