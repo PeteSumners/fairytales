@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Thumb</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Tom Thumb</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>12 min read</span>
+            <span>2,501 words</span>
+        </div>
+        <div class="warning">This story contains some darker themes.</div>
+        <div class="story-content">
+            <p>A poor woodman sat in his cottage one night, smoking his pipe by the</p>
+<p>fireside, while his wife sat by his side spinning. ‘How lonely it is,</p>
+<p>wife,’ said he, as he puffed out a long curl of smoke, ‘for you and me</p>
+<p>to sit here by ourselves, without any children to play about and amuse</p>
+<p>us while other people seem so happy and merry with their children!’</p>
+<p>‘What you say is very true,’ said the wife, sighing, and turning round</p>
+<p>her wheel; ‘how happy should I be if I had but one child! If it were</p>
+<p>ever so small--nay, if it were no bigger than my thumb--I should be very</p>
+<p>happy, and love it dearly.’ Now--odd as you may think it--it came to</p>
+<p>pass that this good woman’s wish was fulfilled, just in the very way she</p>
+<p>had wished it; for, not long afterwards, she had a little boy, who was</p>
+<p>quite healthy and strong, but was not much bigger than my thumb. So</p>
+<p>they said, ‘Well, we cannot say we have not got what we wished for, and,</p>
+<p>little as he is, we will love him dearly.’ And they called him Thomas</p>
+<p>Thumb.</p>
+<p>They gave him plenty of food, yet for all they could do he never grew</p>
+<p>bigger, but kept just the same size as he had been when he was born.</p>
+<p>Still, his eyes were sharp and sparkling, and he soon showed himself to</p>
+<p>be a clever little fellow, who always knew well what he was about.</p>
+<p>One day, as the woodman was getting ready to go into the wood to cut</p>
+<p>fuel, he said, ‘I wish I had someone to bring the cart after me, for I</p>
+<p>want to make haste.’ ‘Oh, father,’ cried Tom, ‘I will take care of that;</p>
+<p>the cart shall be in the wood by the time you want it.’ Then the woodman</p>
+<p>laughed, and said, ‘How can that be? you cannot reach up to the horse’s</p>
+<p>bridle.’ ‘Never mind that, father,’ said Tom; ‘if my mother will only</p>
+<p>harness the horse, I will get into his ear and tell him which way to</p>
+<p>go.’ ‘Well,’ said the father, ‘we will try for once.’</p>
+<p>When the time came the mother harnessed the horse to the cart, and put</p>
+<p>Tom into his ear; and as he sat there the little man told the beast how</p>
+<p>to go, crying out, ‘Go on!’ and ‘Stop!’ as he wanted: and thus the horse</p>
+<p>went on just as well as if the woodman had driven it himself into the</p>
+<p>wood. It happened that as the horse was going a little too fast, and Tom</p>
+<p>was calling out, ‘Gently! gently!’ two strangers came up. ‘What an odd</p>
+<p>thing that is!’ said one: ‘there is a cart going along, and I hear a</p>
+<p>carter talking to the horse, but yet I can see no one.’ ‘That is queer,</p>
+<p>indeed,’ said the other; ‘let us follow the cart, and see where it</p>
+<p>goes.’ So they went on into the wood, till at last they came to the</p>
+<p>place where the woodman was. Then Tom Thumb, seeing his father, cried</p>
+<p>out, ‘See, father, here I am with the cart, all right and safe! now take</p>
+<p>me down!’ So his father took hold of the horse with one hand, and with</p>
+<p>the other took his son out of the horse’s ear, and put him down upon a</p>
+<p>straw, where he sat as merry as you please.</p>
+<p>The two strangers were all this time looking on, and did not know what</p>
+<p>to say for wonder. At last one took the other aside, and said, ‘That</p>
+<p>little urchin will make our fortune, if we can get him, and carry him</p>
+<p>about from town to town as a show; we must buy him.’ So they went up to</p>
+<p>the woodman, and asked him what he would take for the little man. ‘He</p>
+<p>will be better off,’ said they, ‘with us than with you.’ ‘I won’t sell</p>
+<p>him at all,’ said the father; ‘my own flesh and blood is dearer to me</p>
+<p>than all the silver and gold in the world.’ But Tom, hearing of the</p>
+<p>bargain they wanted to make, crept up his father’s coat to his shoulder</p>
+<p>and whispered in his ear, ‘Take the money, father, and let them have me;</p>
+<p>I’ll soon come back to you.’</p>
+<p>So the woodman at last said he would sell Tom to the strangers for a</p>
+<p>large piece of gold, and they paid the price. ‘Where would you like to</p>
+<p>sit?’ said one of them. ‘Oh, put me on the rim of your hat; that will be</p>
+<p>a nice gallery for me; I can walk about there and see the country as we</p>
+<p>go along.’ So they did as he wished; and when Tom had taken leave of his</p>
+<p>father they took him away with them.</p>
+<p>They journeyed on till it began to be dusky, and then the little man</p>
+<p>said, ‘Let me get down, I’m tired.’ So the man took off his hat, and</p>
+<p>put him down on a clod of earth, in a ploughed field by the side of the</p>
+<p>road. But Tom ran about amongst the furrows, and at last slipped into</p>
+<p>an old mouse-hole. ‘Good night, my masters!’ said he, ‘I’m off! mind and</p>
+<p>look sharp after me the next time.’ Then they ran at once to the place,</p>
+<p>and poked the ends of their sticks into the mouse-hole, but all in vain;</p>
+<p>Tom only crawled farther and farther in; and at last it became quite</p>
+<p>dark, so that they were forced to go their way without their prize, as</p>
+<p>sulky as could be.</p>
+<p>When Tom found they were gone, he came out of his hiding-place. ‘What</p>
+<p>dangerous walking it is,’ said he, ‘in this ploughed field! If I were to</p>
+<p>fall from one of these great clods, I should undoubtedly break my neck.’</p>
+<p>At last, by good luck, he found a large empty snail-shell. ‘This is</p>
+<p>lucky,’ said he, ‘I can sleep here very well’; and in he crept.</p>
+<p>Just as he was falling asleep, he heard two men passing by, chatting</p>
+<p>together; and one said to the other, ‘How can we rob that rich parson’s</p>
+<p>house of his silver and gold?’ ‘I’ll tell you!’ cried Tom. ‘What noise</p>
+<p>was that?’ said the thief, frightened; ‘I’m sure I heard someone speak.’</p>
+<p>They stood still listening, and Tom said, ‘Take me with you, and I’ll</p>
+<p>soon show you how to get the parson’s money.’ ‘But where are you?’ said</p>
+<p>they. ‘Look about on the ground,’ answered he, ‘and listen where the</p>
+<p>sound comes from.’ At last the thieves found him out, and lifted him</p>
+<p>up in their hands. ‘You little urchin!’ they said, ‘what can you do for</p>
+<p>us?’ ‘Why, I can get between the iron window-bars of the parson’s house,</p>
+<p>and throw you out whatever you want.’ ‘That’s a good thought,’ said the</p>
+<p>thieves; ‘come along, we shall see what you can do.’</p>
+<p>When they came to the parson’s house, Tom slipped through the</p>
+<p>window-bars into the room, and then called out as loud as he could bawl,</p>
+<p>‘Will you have all that is here?’ At this the thieves were frightened,</p>
+<p>and said, ‘Softly, softly! Speak low, that you may not awaken anybody.’</p>
+<p>But Tom seemed as if he did not understand them, and bawled out again,</p>
+<p>‘How much will you have? Shall I throw it all out?’ Now the cook lay in</p>
+<p>the next room; and hearing a noise she raised herself up in her bed and</p>
+<p>listened. Meantime the thieves were frightened, and ran off a little</p>
+<p>way; but at last they plucked up their hearts, and said, ‘The little</p>
+<p>urchin is only trying to make fools of us.’ So they came back and</p>
+<p>whispered softly to him, saying, ‘Now let us have no more of your</p>
+<p>roguish jokes; but throw us out some of the money.’ Then Tom called out</p>
+<p>as loud as he could, ‘Very well! hold your hands! here it comes.’</p>
+<p>The cook heard this quite plain, so she sprang out of bed, and ran to</p>
+<p>open the door. The thieves ran off as if a wolf was at their tails: and</p>
+<p>the maid, having groped about and found nothing, went away for a light.</p>
+<p>By the time she came back, Tom had slipped off into the barn; and when</p>
+<p>she had looked about and searched every hole and corner, and found</p>
+<p>nobody, she went to bed, thinking she must have been dreaming with her</p>
+<p>eyes open.</p>
+<p>The little man crawled about in the hay-loft, and at last found a snug</p>
+<p>place to finish his night’s rest in; so he laid himself down, meaning</p>
+<p>to sleep till daylight, and then find his way home to his father and</p>
+<p>mother. But alas! how woefully he was undone! what crosses and sorrows</p>
+<p>happen to us all in this world! The cook got up early, before daybreak,</p>
+<p>to feed the cows; and going straight to the hay-loft, carried away</p>
+<p>a large bundle of hay, with the little man in the middle of it, fast</p>
+<p>asleep. He still, however, slept on, and did not awake till he found</p>
+<p>himself in the mouth of the cow; for the cook had put the hay into the</p>
+<p>cow’s rick, and the cow had taken Tom up in a mouthful of it. ‘Good</p>
+<p>lack-a-day!’ said he, ‘how came I to tumble into the mill?’ But he soon</p>
+<p>found out where he really was; and was forced to have all his wits about</p>
+<p>him, that he might not get between the cow’s teeth, and so be crushed to</p>
+<p>death. At last down he went into her stomach. ‘It is rather dark,’ said</p>
+<p>he; ‘they forgot to build windows in this room to let the sun in; a</p>
+<p>candle would be no bad thing.’</p>
+<p>Though he made the best of his bad luck, he did not like his quarters at</p>
+<p>all; and the worst of it was, that more and more hay was always coming</p>
+<p>down, and the space left for him became smaller and smaller. At last he</p>
+<p>cried out as loud as he could, ‘Don’t bring me any more hay! Don’t bring</p>
+<p>me any more hay!’</p>
+<p>The maid happened to be just then milking the cow; and hearing someone</p>
+<p>speak, but seeing nobody, and yet being quite sure it was the same voice</p>
+<p>that she had heard in the night, she was so frightened that she fell off</p>
+<p>her stool, and overset the milk-pail. As soon as she could pick herself</p>
+<p>up out of the dirt, she ran off as fast as she could to her master the</p>
+<p>parson, and said, ‘Sir, sir, the cow is talking!’ But the parson</p>
+<p>said, ‘Woman, thou art surely mad!’ However, he went with her into the</p>
+<p>cow-house, to try and see what was the matter.</p>
+<p>Scarcely had they set foot on the threshold, when Tom called out, ‘Don’t</p>
+<p>bring me any more hay!’ Then the parson himself was frightened; and</p>
+<p>thinking the cow was surely bewitched, told his man to kill her on the</p>
+<p>spot. So the cow was killed, and cut up; and the stomach, in which Tom</p>
+<p>lay, was thrown out upon a dunghill.</p>
+<p>Tom soon set himself to work to get out, which was not a very easy</p>
+<p>task; but at last, just as he had made room to get his head out, fresh</p>
+<p>ill-luck befell him. A hungry wolf sprang out, and swallowed up the</p>
+<p>whole stomach, with Tom in it, at one gulp, and ran away.</p>
+<p>Tom, however, was still not disheartened; and thinking the wolf would</p>
+<p>not dislike having some chat with him as he was going along, he called</p>
+<p>out, ‘My good friend, I can show you a famous treat.’ ‘Where’s that?’</p>
+<p>said the wolf. ‘In such and such a house,’ said Tom, describing his own</p>
+<p>father’s house. ‘You can crawl through the drain into the kitchen and</p>
+<p>then into the pantry, and there you will find cakes, ham, beef, cold</p>
+<p>chicken, roast pig, apple-dumplings, and everything that your heart can</p>
+<p>wish.’</p>
+<p>The wolf did not want to be asked twice; so that very night he went to</p>
+<p>the house and crawled through the drain into the kitchen, and then into</p>
+<p>the pantry, and ate and drank there to his heart’s content. As soon as</p>
+<p>he had had enough he wanted to get away; but he had eaten so much that</p>
+<p>he could not go out by the same way he came in.</p>
+<p>This was just what Tom had reckoned upon; and now he began to set up a</p>
+<p>great shout, making all the noise he could. ‘Will you be easy?’ said the</p>
+<p>wolf; ‘you’ll awaken everybody in the house if you make such a clatter.’</p>
+<p>‘What’s that to me?’ said the little man; ‘you have had your frolic, now</p>
+<p>I’ve a mind to be merry myself’; and he began, singing and shouting as</p>
+<p>loud as he could.</p>
+<p>The woodman and his wife, being awakened by the noise, peeped through</p>
+<p>a crack in the door; but when they saw a wolf was there, you may well</p>
+<p>suppose that they were sadly frightened; and the woodman ran for his</p>
+<p>axe, and gave his wife a scythe. ‘Do you stay behind,’ said the woodman,</p>
+<p>‘and when I have knocked him on the head you must rip him up with the</p>
+<p>scythe.’ Tom heard all this, and cried out, ‘Father, father! I am here,</p>
+<p>the wolf has swallowed me.’ And his father said, ‘Heaven be praised! we</p>
+<p>have found our dear child again’; and he told his wife not to use the</p>
+<p>scythe for fear she should hurt him. Then he aimed a great blow, and</p>
+<p>struck the wolf on the head, and killed him on the spot! and when he was</p>
+<p>dead they cut open his body, and set Tommy free. ‘Ah!’ said the father,</p>
+<p>‘what fears we have had for you!’ ‘Yes, father,’ answered he; ‘I have</p>
+<p>travelled all over the world, I think, in one way or other, since we</p>
+<p>parted; and now I am very glad to come home and get fresh air again.’</p>
+<p>‘Why, where have you been?’ said his father. ‘I have been in a</p>
+<p>mouse-hole--and in a snail-shell--and down a cow’s throat--and in the</p>
+<p>wolf’s belly; and yet here I am again, safe and sound.’</p>
+<p>‘Well,’ said they, ‘you are come back, and we will not sell you again</p>
+<p>for all the riches in the world.’</p>
+<p>Then they hugged and kissed their dear little son, and gave him plenty</p>
+<p>to eat and drink, for he was very hungry; and then they fetched new</p>
+<p>clothes for him, for his old ones had been quite spoiled on his journey.</p>
+<p>So Master Thumb stayed at home with his father and mother, in peace; for</p>
+<p>though he had been so great a traveller, and had done and seen so many</p>
+<p>fine things, and was fond enough of telling the whole story, he always</p>
+<p>agreed that, after all, there’s no place like HOME!</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

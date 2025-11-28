@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Hans</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Iron Hans</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>16 min read</span>
+            <span>3,208 words</span>
+        </div>
+        <div class="warning">This story contains some darker themes.</div>
+        <div class="story-content">
+            <p>There was once upon a time a king who had a great forest near his</p>
+<p>palace, full of all kinds of wild animals. One day he sent out a</p>
+<p>huntsman to shoot him a roe, but he did not come back. ‘Perhaps some</p>
+<p>accident has befallen him,’ said the king, and the next day he sent out</p>
+<p>two more huntsmen who were to search for him, but they too stayed away.</p>
+<p>Then on the third day, he sent for all his huntsmen, and said: ‘Scour</p>
+<p>the whole forest through, and do not give up until you have found all</p>
+<p>three.’ But of these also, none came home again, none were seen again.</p>
+<p>From that time forth, no one would any longer venture into the forest,</p>
+<p>and it lay there in deep stillness and solitude, and nothing was seen</p>
+<p>of it, but sometimes an eagle or a hawk flying over it. This lasted for</p>
+<p>many years, when an unknown huntsman announced himself to the king as</p>
+<p>seeking a situation, and offered to go into the dangerous forest. The</p>
+<p>king, however, would not give his consent, and said: ‘It is not safe in</p>
+<p>there; I fear it would fare with you no better than with the others,</p>
+<p>and you would never come out again.’ The huntsman replied: ‘Lord, I will</p>
+<p>venture it at my own risk, of fear I know nothing.’</p>
+<p>The huntsman therefore betook himself with his dog to the forest. It was</p>
+<p>not long before the dog fell in with some game on the way, and wanted to</p>
+<p>pursue it; but hardly had the dog run two steps when it stood before a</p>
+<p>deep pool, could go no farther, and a naked arm stretched itself out of</p>
+<p>the water, seized it, and drew it under. When the huntsman saw that, he</p>
+<p>went back and fetched three men to come with buckets and bale out the</p>
+<p>water. When they could see to the bottom there lay a wild man whose body</p>
+<p>was brown like rusty iron, and whose hair hung over his face down to his</p>
+<p>knees. They bound him with cords, and led him away to the castle. There</p>
+<p>was great astonishment over the wild man; the king, however, had him put</p>
+<p>in an iron cage in his courtyard, and forbade the door to be opened</p>
+<p>on pain of death, and the queen herself was to take the key into her</p>
+<p>keeping. And from this time forth everyone could again go into the</p>
+<p>forest with safety.</p>
+<p>The king had a son of eight years, who was once playing in the</p>
+<p>courtyard, and while he was playing, his golden ball fell into the cage.</p>
+<p>The boy ran thither and said: ‘Give me my ball out.’ ‘Not till you have</p>
+<p>opened the door for me,’ answered the man. ‘No,’ said the boy, ‘I will</p>
+<p>not do that; the king has forbidden it,’ and ran away. The next day he</p>
+<p>again went and asked for his ball; the wild man said: ‘Open my door,’</p>
+<p>but the boy would not. On the third day the king had ridden out hunting,</p>
+<p>and the boy went once more and said: ‘I cannot open the door even if I</p>
+<p>wished, for I have not the key.’ Then the wild man said: ‘It lies under</p>
+<p>your mother’s pillow, you can get it there.’ The boy, who wanted to have</p>
+<p>his ball back, cast all thought to the winds, and brought the key. The</p>
+<p>door opened with difficulty, and the boy pinched his fingers. When it</p>
+<p>was open the wild man stepped out, gave him the golden ball, and hurried</p>
+<p>away. The boy had become afraid; he called and cried after him: ‘Oh,</p>
+<p>wild man, do not go away, or I shall be beaten!’ The wild man turned</p>
+<p>back, took him up, set him on his shoulder, and went with hasty steps</p>
+<p>into the forest. When the king came home, he observed the empty cage,</p>
+<p>and asked the queen how that had happened. She knew nothing about it,</p>
+<p>and sought the key, but it was gone. She called the boy, but no one</p>
+<p>answered. The king sent out people to seek for him in the fields, but</p>
+<p>they did not find him. Then he could easily guess what had happened, and</p>
+<p>much grief reigned in the royal court.</p>
+<p>When the wild man had once more reached the dark forest, he took the boy</p>
+<p>down from his shoulder, and said to him: ‘You will never see your father</p>
+<p>and mother again, but I will keep you with me, for you have set me free,</p>
+<p>and I have compassion on you. If you do all I bid you, you shall fare</p>
+<p>well. Of treasure and gold have I enough, and more than anyone in the</p>
+<p>world.’ He made a bed of moss for the boy on which he slept, and the</p>
+<p>next morning the man took him to a well, and said: ‘Behold, the gold</p>
+<p>well is as bright and clear as crystal, you shall sit beside it, and</p>
+<p>take care that nothing falls into it, or it will be polluted. I will</p>
+<p>come every evening to see if you have obeyed my order.’ The boy placed</p>
+<p>himself by the brink of the well, and often saw a golden fish or a</p>
+<p>golden snake show itself therein, and took care that nothing fell in.</p>
+<p>As he was thus sitting, his finger hurt him so violently that he</p>
+<p>involuntarily put it in the water. He drew it quickly out again, but saw</p>
+<p>that it was quite gilded, and whatsoever pains he took to wash the gold</p>
+<p>off again, all was to no purpose. In the evening Iron Hans came back,</p>
+<p>looked at the boy, and said: ‘What has happened to the well?’ ‘Nothing</p>
+<p>nothing,’ he answered, and held his finger behind his back, that the</p>
+<p>man might not see it. But he said: ‘You have dipped your finger into</p>
+<p>the water, this time it may pass, but take care you do not again let</p>
+<p>anything go in.’ By daybreak the boy was already sitting by the well and</p>
+<p>watching it. His finger hurt him again and he passed it over his head,</p>
+<p>and then unhappily a hair fell down into the well. He took it quickly</p>
+<p>out, but it was already quite gilded. Iron Hans came, and already knew</p>
+<p>what had happened. ‘You have let a hair fall into the well,’ said he.</p>
+<p>‘I will allow you to watch by it once more, but if this happens for the</p>
+<p>third time then the well is polluted and you can no longer remain with</p>
+<p>me.’</p>
+<p>On the third day, the boy sat by the well, and did not stir his finger,</p>
+<p>however much it hurt him. But the time was long to him, and he looked at</p>
+<p>the reflection of his face on the surface of the water. And as he</p>
+<p>still bent down more and more while he was doing so, and trying to look</p>
+<p>straight into the eyes, his long hair fell down from his shoulders into</p>
+<p>the water. He raised himself up quickly, but the whole of the hair of</p>
+<p>his head was already golden and shone like the sun. You can imagine how</p>
+<p>terrified the poor boy was! He took his pocket-handkerchief and tied it</p>
+<p>round his head, in order that the man might not see it. When he came he</p>
+<p>already knew everything, and said: ‘Take the handkerchief off.’ Then the</p>
+<p>golden hair streamed forth, and let the boy excuse himself as he might,</p>
+<p>it was of no use. ‘You have not stood the trial and can stay here no</p>
+<p>longer. Go forth into the world, there you will learn what poverty is.</p>
+<p>But as you have not a bad heart, and as I mean well by you, there is</p>
+<p>one thing I will grant you; if you fall into any difficulty, come to the</p>
+<p>forest and cry: “Iron Hans,” and then I will come and help you. My</p>
+<p>power is great, greater than you think, and I have gold and silver in</p>
+<p>abundance.’</p>
+<p>Then the king’s son left the forest, and walked by beaten and unbeaten</p>
+<p>paths ever onwards until at length he reached a great city. There he</p>
+<p>looked for work, but could find none, and he learnt nothing by which he</p>
+<p>could help himself. At length he went to the palace, and asked if they</p>
+<p>would take him in. The people about court did not at all know what use</p>
+<p>they could make of him, but they liked him, and told him to stay. At</p>
+<p>length the cook took him into his service, and said he might carry wood</p>
+<p>and water, and rake the cinders together. Once when it so happened that</p>
+<p>no one else was at hand, the cook ordered him to carry the food to the</p>
+<p>royal table, but as he did not like to let his golden hair be seen, he</p>
+<p>kept his little cap on. Such a thing as that had never yet come under</p>
+<p>the king’s notice, and he said: ‘When you come to the royal table you</p>
+<p>must take your hat off.’ He answered: ‘Ah, Lord, I cannot; I have a bad</p>
+<p>sore place on my head.’ Then the king had the cook called before him</p>
+<p>and scolded him, and asked how he could take such a boy as that into his</p>
+<p>service; and that he was to send him away at once. The cook, however,</p>
+<p>had pity on him, and exchanged him for the gardener’s boy.</p>
+<p>And now the boy had to plant and water the garden, hoe and dig, and bear</p>
+<p>the wind and bad weather. Once in summer when he was working alone in</p>
+<p>the garden, the day was so warm he took his little cap off that the air</p>
+<p>might cool him. As the sun shone on his hair it glittered and flashed so</p>
+<p>that the rays fell into the bedroom of the king’s daughter, and up she</p>
+<p>sprang to see what that could be. Then she saw the boy, and cried to</p>
+<p>him: ‘Boy, bring me a wreath of flowers.’ He put his cap on with all</p>
+<p>haste, and gathered wild field-flowers and bound them together. When he</p>
+<p>was ascending the stairs with them, the gardener met him, and said: ‘How</p>
+<p>can you take the king’s daughter a garland of such common flowers? Go</p>
+<p>quickly, and get another, and seek out the prettiest and rarest.’ ‘Oh,</p>
+<p>no,’ replied the boy, ‘the wild ones have more scent, and will please</p>
+<p>her better.’ When he got into the room, the king’s daughter said: ‘Take</p>
+<p>your cap off, it is not seemly to keep it on in my presence.’ He again</p>
+<p>said: ‘I may not, I have a sore head.’ She, however, caught at his</p>
+<p>cap and pulled it off, and then his golden hair rolled down on his</p>
+<p>shoulders, and it was splendid to behold. He wanted to run out, but she</p>
+<p>held him by the arm, and gave him a handful of ducats. With these he</p>
+<p>departed, but he cared nothing for the gold pieces. He took them to the</p>
+<p>gardener, and said: ‘I present them to your children, they can play with</p>
+<p>them.’ The following day the king’s daughter again called to him that he</p>
+<p>was to bring her a wreath of field-flowers, and then he went in with it,</p>
+<p>she instantly snatched at his cap, and wanted to take it away from him,</p>
+<p>but he held it fast with both hands. She again gave him a handful of</p>
+<p>ducats, but he would not keep them, and gave them to the gardener for</p>
+<p>playthings for his children. On the third day things went just the</p>
+<p>same; she could not get his cap away from him, and he would not have her</p>
+<p>money.</p>
+<p>Not long afterwards, the country was overrun by war. The king gathered</p>
+<p>together his people, and did not know whether or not he could offer any</p>
+<p>opposition to the enemy, who was superior in strength and had a mighty</p>
+<p>army. Then said the gardener’s boy: ‘I am grown up, and will go to the</p>
+<p>wars also, only give me a horse.’ The others laughed, and said: ‘Seek</p>
+<p>one for yourself when we are gone, we will leave one behind us in the</p>
+<p>stable for you.’ When they had gone forth, he went into the stable, and</p>
+<p>led the horse out; it was lame of one foot, and limped hobblety jib,</p>
+<p>hobblety jib; nevertheless he mounted it, and rode away to the dark</p>
+<p>forest. When he came to the outskirts, he called ‘Iron Hans’ three</p>
+<p>times so loudly that it echoed through the trees. Thereupon the wild man</p>
+<p>appeared immediately, and said: ‘What do you desire?’ ‘I want a strong</p>
+<p>steed, for I am going to the wars.’ ‘That you shall have, and still more</p>
+<p>than you ask for.’ Then the wild man went back into the forest, and it</p>
+<p>was not long before a stable-boy came out of it, who led a horse that</p>
+<p>snorted with its nostrils, and could hardly be restrained, and behind</p>
+<p>them followed a great troop of warriors entirely equipped in iron, and</p>
+<p>their swords flashed in the sun. The youth made over his three-legged</p>
+<p>horse to the stable-boy, mounted the other, and rode at the head of the</p>
+<p>soldiers. When he got near the battlefield a great part of the king’s</p>
+<p>men had already fallen, and little was wanting to make the rest give</p>
+<p>way. Then the youth galloped thither with his iron soldiers, broke like</p>
+<p>a hurricane over the enemy, and beat down all who opposed him. They</p>
+<p>began to flee, but the youth pursued, and never stopped, until there</p>
+<p>was not a single man left. Instead of returning to the king, however, he</p>
+<p>conducted his troop by byways back to the forest, and called forth Iron</p>
+<p>Hans. ‘What do you desire?’ asked the wild man. ‘Take back your horse</p>
+<p>and your troops, and give me my three-legged horse again.’ All that he</p>
+<p>asked was done, and soon he was riding on his three-legged horse. When</p>
+<p>the king returned to his palace, his daughter went to meet him, and</p>
+<p>wished him joy of his victory. ‘I am not the one who carried away the</p>
+<p>victory,’ said he, ‘but a strange knight who came to my assistance with</p>
+<p>his soldiers.’ The daughter wanted to hear who the strange knight was,</p>
+<p>but the king did not know, and said: ‘He followed the enemy, and I did</p>
+<p>not see him again.’ She inquired of the gardener where his boy was, but</p>
+<p>he smiled, and said: ‘He has just come home on his three-legged horse,</p>
+<p>and the others have been mocking him, and crying: “Here comes our</p>
+<p>hobblety jib back again!” They asked, too: “Under what hedge have you</p>
+<p>been lying sleeping all the time?” So he said: “I did the best of all,</p>
+<p>and it would have gone badly without me.” And then he was still more</p>
+<p>ridiculed.’</p>
+<p>The king said to his daughter: ‘I will proclaim a great feast that shall</p>
+<p>last for three days, and you shall throw a golden apple. Perhaps the</p>
+<p>unknown man will show himself.’ When the feast was announced, the youth</p>
+<p>went out to the forest, and called Iron Hans. ‘What do you desire?’</p>
+<p>asked he. ‘That I may catch the king’s daughter’s golden apple.’ ‘It is</p>
+<p>as safe as if you had it already,’ said Iron Hans. ‘You shall likewise</p>
+<p>have a suit of red armour for the occasion, and ride on a spirited</p>
+<p>chestnut-horse.’ When the day came, the youth galloped to the spot, took</p>
+<p>his place amongst the knights, and was recognized by no one. The king’s</p>
+<p>daughter came forward, and threw a golden apple to the knights, but none</p>
+<p>of them caught it but he, only as soon as he had it he galloped away.</p>
+<p>On the second day Iron Hans equipped him as a white knight, and gave him</p>
+<p>a white horse. Again he was the only one who caught the apple, and</p>
+<p>he did not linger an instant, but galloped off with it. The king grew</p>
+<p>angry, and said: ‘That is not allowed; he must appear before me and tell</p>
+<p>his name.’ He gave the order that if the knight who caught the apple,</p>
+<p>should go away again they should pursue him, and if he would not come</p>
+<p>back willingly, they were to cut him down and stab him.</p>
+<p>On the third day, he received from Iron Hans a suit of black armour and</p>
+<p>a black horse, and again he caught the apple. But when he was riding off</p>
+<p>with it, the king’s attendants pursued him, and one of them got so near</p>
+<p>him that he wounded the youth’s leg with the point of his sword. The</p>
+<p>youth nevertheless escaped from them, but his horse leapt so violently</p>
+<p>that the helmet fell from the youth’s head, and they could see that he</p>
+<p>had golden hair. They rode back and announced this to the king.</p>
+<p>The following day the king’s daughter asked the gardener about his</p>
+<p>boy. ‘He is at work in the garden; the queer creature has been at the</p>
+<p>festival too, and only came home yesterday evening; he has likewise</p>
+<p>shown my children three golden apples which he has won.’</p>
+<p>The king had him summoned into his presence, and he came and again had</p>
+<p>his little cap on his head. But the king’s daughter went up to him and</p>
+<p>took it off, and then his golden hair fell down over his shoulders, and</p>
+<p>he was so handsome that all were amazed. ‘Are you the knight who came</p>
+<p>every day to the festival, always in different colours, and who caught</p>
+<p>the three golden apples?’ asked the king. ‘Yes,’ answered he, ‘and here</p>
+<p>the apples are,’ and he took them out of his pocket, and returned them</p>
+<p>to the king. ‘If you desire further proof, you may see the wound which</p>
+<p>your people gave me when they followed me. But I am likewise the knight</p>
+<p>who helped you to your victory over your enemies.’ ‘If you can perform</p>
+<p>such deeds as that, you are no gardener’s boy; tell me, who is your</p>
+<p>father?’ ‘My father is a mighty king, and gold have I in plenty as great</p>
+<p>as I require.’ ‘I well see,’ said the king, ‘that I owe my thanks to</p>
+<p>you; can I do anything to please you?’ ‘Yes,’ answered he, ‘that indeed</p>
+<p>you can. Give me your daughter to wife.’ The maiden laughed, and said:</p>
+<p>‘He does not stand much on ceremony, but I have already seen by his</p>
+<p>golden hair that he was no gardener’s boy,’ and then she went and</p>
+<p>kissed him. His father and mother came to the wedding, and were in great</p>
+<p>delight, for they had given up all hope of ever seeing their dear</p>
+<p>son again. And as they were sitting at the marriage-feast, the music</p>
+<p>suddenly stopped, the doors opened, and a stately king came in with a</p>
+<p>great retinue. He went up to the youth, embraced him and said: ‘I am</p>
+<p>Iron Hans, and was by enchantment a wild man, but you have set me free;</p>
+<p>all the treasures which I possess, shall be your property.’</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

@@ -26,7 +26,7 @@ pygame.mixer.init()
 # Paths
 ROOT = Path(__file__).parent.parent
 OUTPUT_DIR = ROOT / "output" / "fairytales"
-CACHE_DIR = ROOT / "cache"
+AUDIO_DIR = ROOT / "audio"
 SAVE_FILE = ROOT / "reader" / "progress.json"
 
 # Bible paths (external)
@@ -1616,7 +1616,7 @@ class FairytaleReader:
 
         self.progress = ProgressManager()
         self.audio = AudioPlayer(CACHE_DIR)
-        self.media = MediaManager(CACHE_DIR)
+        self.media = MediaManager(AUDIO_DIR)
         self.bible = BibleLoader(BIBLE_TEXT, BIBLE_VIDEO_DIR, CACHE_DIR)
         self.library = LibraryScreen(self)
         self.reading_screen = None

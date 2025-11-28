@@ -1,10 +1,3 @@
-# Cache - gutenberg sources, images (exclude audio which we keep)
-cache/gutenberg/
-cache/images/
-
-# Generated output - processed stories
-output/
-
 # User data
 reader/progress.json
 
@@ -37,10 +30,3 @@ Thumbs.db
 *.tmp
 *.bak
 NUL
-*.mp4
-*.ogv
-cache/video/
-*.png
-*.jpg
-*.jpeg
-*.gif

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumpelstiltskin</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Rumpelstiltskin</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>5 min read</span>
+            <span>1,138 words</span>
+        </div>
+        
+        <div class="story-content">
+            <p>By the side of a wood, in a country a long way off, ran a fine stream</p>
+<p>of water; and upon the stream there stood a mill. The miller’s house was</p>
+<p>close by, and the miller, you must know, had a very beautiful daughter.</p>
+<p>She was, moreover, very shrewd and clever; and the miller was so proud</p>
+<p>of her, that he one day told the king of the land, who used to come and</p>
+<p>hunt in the wood, that his daughter could spin gold out of straw. Now</p>
+<p>this king was very fond of money; and when he heard the miller’s boast</p>
+<p>his greediness was raised, and he sent for the girl to be brought before</p>
+<p>him. Then he led her to a chamber in his palace where there was a great</p>
+<p>heap of straw, and gave her a spinning-wheel, and said, ‘All this must</p>
+<p>be spun into gold before morning, as you love your life.’ It was in vain</p>
+<p>that the poor maiden said that it was only a silly boast of her father,</p>
+<p>for that she could do no such thing as spin straw into gold: the chamber</p>
+<p>door was locked, and she was left alone.</p>
+<p>She sat down in one corner of the room, and began to bewail her hard</p>
+<p>fate; when on a sudden the door opened, and a droll-looking little man</p>
+<p>hobbled in, and said, ‘Good morrow to you, my good lass; what are you</p>
+<p>weeping for?’ ‘Alas!’ said she, ‘I must spin this straw into gold, and</p>
+<p>I know not how.’ ‘What will you give me,’ said the hobgoblin, ‘to do it</p>
+<p>for you?’ ‘My necklace,’ replied the maiden. He took her at her word,</p>
+<p>and sat himself down to the wheel, and whistled and sang:</p>
+<p>‘Round about, round about,</p>
+<p>Lo and behold!</p>
+<p>Reel away, reel away,</p>
+<p>Straw into gold!’</p>
+<p>And round about the wheel went merrily; the work was quickly done, and</p>
+<p>the straw was all spun into gold.</p>
+<p>When the king came and saw this, he was greatly astonished and pleased;</p>
+<p>but his heart grew still more greedy of gain, and he shut up the poor</p>
+<p>miller’s daughter again with a fresh task. Then she knew not what to do,</p>
+<p>and sat down once more to weep; but the dwarf soon opened the door, and</p>
+<p>said, ‘What will you give me to do your task?’ ‘The ring on my finger,’</p>
+<p>said she. So her little friend took the ring, and began to work at the</p>
+<p>wheel again, and whistled and sang:</p>
+<p>‘Round about, round about,</p>
+<p>Lo and behold!</p>
+<p>Reel away, reel away,</p>
+<p>Straw into gold!’</p>
+<p>till, long before morning, all was done again.</p>
+<p>The king was greatly delighted to see all this glittering treasure;</p>
+<p>but still he had not enough: so he took the miller’s daughter to a yet</p>
+<p>larger heap, and said, ‘All this must be spun tonight; and if it is,</p>
+<p>you shall be my queen.’ As soon as she was alone that dwarf came in, and</p>
+<p>said, ‘What will you give me to spin gold for you this third time?’</p>
+<p>‘I have nothing left,’ said she. ‘Then say you will give me,’ said</p>
+<p>the little man, ‘the first little child that you may have when you are</p>
+<p>queen.’ ‘That may never be,’ thought the miller’s daughter: and as she</p>
+<p>knew no other way to get her task done, she said she would do what he</p>
+<p>asked. Round went the wheel again to the old song, and the manikin once</p>
+<p>more spun the heap into gold. The king came in the morning, and, finding</p>
+<p>all he wanted, was forced to keep his word; so he married the miller’s</p>
+<p>daughter, and she really became queen.</p>
+<p>At the birth of her first little child she was very glad, and forgot the</p>
+<p>dwarf, and what she had said. But one day he came into her room, where</p>
+<p>she was sitting playing with her baby, and put her in mind of it. Then</p>
+<p>she grieved sorely at her misfortune, and said she would give him all</p>
+<p>the wealth of the kingdom if he would let her off, but in vain; till at</p>
+<p>last her tears softened him, and he said, ‘I will give you three days’</p>
+<p>grace, and if during that time you tell me my name, you shall keep your</p>
+<p>child.’</p>
+<p>Now the queen lay awake all night, thinking of all the odd names that</p>
+<p>she had ever heard; and she sent messengers all over the land to find</p>
+<p>out new ones. The next day the little man came, and she began with</p>
+<p>TIMOTHY, ICHABOD, BENJAMIN, JEREMIAH, and all the names she could</p>
+<p>remember; but to all and each of them he said, ‘Madam, that is not my</p>
+<p>name.’</p>
+<p>The second day she began with all the comical names she could hear of,</p>
+<p>BANDY-LEGS, HUNCHBACK, CROOK-SHANKS, and so on; but the little gentleman</p>
+<p>still said to every one of them, ‘Madam, that is not my name.’</p>
+<p>The third day one of the messengers came back, and said, ‘I have</p>
+<p>travelled two days without hearing of any other names; but yesterday, as</p>
+<p>I was climbing a high hill, among the trees of the forest where the fox</p>
+<p>and the hare bid each other good night, I saw a little hut; and before</p>
+<p>the hut burnt a fire; and round about the fire a funny little dwarf was</p>
+<p>dancing upon one leg, and singing:</p>
+<p>“Merrily the feast I’ll make.</p>
+<p>Today I’ll brew, tomorrow bake;</p>
+<p>Merrily I’ll dance and sing,</p>
+<p>For next day will a stranger bring.</p>
+<p>Little does my lady dream</p>
+<p>Rumpelstiltskin is my name!”</p>
+<p>When the queen heard this she jumped for joy, and as soon as her little</p>
+<p>friend came she sat down upon her throne, and called all her court round</p>
+<p>to enjoy the fun; and the nurse stood by her side with the baby in her</p>
+<p>arms, as if it was quite ready to be given up. Then the little man began</p>
+<p>to chuckle at the thought of having the poor child, to take home with</p>
+<p>him to his hut in the woods; and he cried out, ‘Now, lady, what is my</p>
+<p>name?’ ‘Is it JOHN?’ asked she. ‘No, madam!’ ‘Is it TOM?’ ‘No, madam!’</p>
+<p>‘Is it JEMMY?’ ‘It is not.’ ‘Can your name be RUMPELSTILTSKIN?’ said the</p>
+<p>lady slyly. ‘Some witch told you that!--some witch told you that!’ cried</p>
+<p>the little man, and dashed his right foot in a rage so deep into the</p>
+<p>floor, that he was forced to lay hold of it with both hands to pull it</p>
+<p>out.</p>
+<p>Then he made the best of his way off, while the nurse laughed and the</p>
+<p>baby crowed; and all the court jeered at him for having had so much</p>
+<p>trouble for nothing, and said, ‘We wish you a very good morning, and a</p>
+<p>merry feast, Mr RUMPLESTILTSKIN!’</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

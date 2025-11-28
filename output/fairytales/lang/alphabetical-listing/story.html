@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabetical Listing</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Alphabetical Listing</h1>
+        <div class="metadata">
+            <span>By Andrew Lang</span>
+            <span>6 min read</span>
+            <span>1,326 words</span>
+        </div>
+        <div class="warning">This story contains some darker themes.</div>
+        <div class="story-content">
+            <p>A Clever Tailor A Fairy's Blunder A French Puck A Lost Paradise Adventures of a Jackal Adventures of an Indian Brave Adventures of Covan the Brown-Haired Adventures of the Jackal's Eldest Son Adventures of the Younger Son of the Jackal Aladdin And The Wonderful Lamp Allerleirauh; Or, The Many-Furred Creature Andras Baive Ball-carrier and the Bad One Ball-carrier Finished His Task Battle of the Birds Bear Beauty And The Beast Beggar Boy Turned Into Count Piro Believing Husbands Bensurdatu Big Klaus And Little Klaus Billy Goat and the King Bird 'Grip' Bird of Truth Biter Bit Black Bull Of Norroway Black Thief And Knight Of The Glen. Blockhead-Hans Blue Beard Blue Bird Blue Mountains Blue Parrot Bobino Bones of Djulung Boy Who Could Keep A Secret Boy who found Fear at Last Boys With The Golden Stars Brave Little Tailor Bronze Ring Brother And Sister Brown Bear of Norway Brownie of the Lake Bunyip Bushy Bride Caliph Stork Cannetella Castle of Kerglas Cat And The Mouse In Partnership Catherine and Her Destiny Cat's Elopement Child Who Came From An Egg Cinderella, Or The Little Glass Slipper Clever Cat Clever Maria Clever Weaver Colony Of Cats Comb and the Collar Cottager And His Cat Crab And The Monkey Crystal Coffin Cunning Hare Cunning Shoemaker Dapplegrim Darning-Needle Daughter Of Buk Ettemsuch Dead Wife Death Of Abu Nowas And Of His Wife Death Of Koshchei The Deathless Death Of The Sun-Hero Diamond cut Diamond Dirty Shepherdess Dog and the Sparrow Don Giovanni De La Fortuna Donkey Skin Dorani Dragon And His Grandmother Dragon Of The North Dragon Was Tricked Drakestail Dschemil and Dschemila East Of The Sun And West Of The Moon Eisenkopf Elf Maiden Emperor's New Clothes Enchanted Canary Enchanted Deer Enchanted Head Enchanted Knife Enchanted Ring Enchanted Snake Enchanted Watch Enchanted Wreath Envious Neighbour Esben and the Witch Escape of the Mouse Fair Circassians Fairy Gifts Fairy Nurse Fairy Of The Dawn False Prince and the True Farmer Weatherbeard Fate of the Turtle Father Grumbler Felicia And The Pot Of Pinks Find Out A True Friend Finest Liar In The World Fir-tree Fish Story Fish Swam In The Air And A Hare In The Water. Fisherman And His Wife Five Wise Words of the Guru Flower Queen's Daughter Flying Ship Flying Trunk Foolish Weaver Fortunatus and His Purse Fortune and the Wood-Cutter Forty Thieves Four Gifts Fox and the Lapp Fox and the Wolf Frog Frog and the Lion Fairy Gazelle Geirald The Coward Was Punished Geirlaug the Kings Daughter Gifts Of The Magician Girl Who Pretended To Be A Boy Girl-Fish Glass Mountain Goat-faced Girl Goat's Ears Of The Emperor Trojan Goblin and the Grocer Goblin Pony Gold-Bearded Man Golden Blackbird Golden Branch Golden Crab Golden Goose Golden Lads Golden Lion Golden Mermaid Golden-headed Fish Goldsmith's Fortune Goose-Girl Graciosa And Percinet Grasp All, Lose All Grateful Prince Green Knight Groac'h of the Isle of Lok Habogi Hairy Man Half-Chick Halfman Hans, the Mermaid's Son Hansel And Grettel Hassebu Hazel-Nut Child He Wins who Waits Headless Dwarfs Heart of a Monkey Heart Of Ice Hermit Helped to Win the King's Daughter Hermod And Hadvor Hero Makoma Herr Lazarus and the Draken History Of Dwarf Long Nose History Of Whittington Hok Lee And The Dwarfs Hoodie-Crow. Horse Gullfaxi And The Sword Gunnfoder House in the Wood How Brave Walter Hunted Wolves How To Tell A True Princess Husband of the Rat's Daughter I Know What I Have Learned Ian Direach Got the Blue Falcon Ian, the Soldier's Son Impossible Enchantment Iron Stove Isuro the Rabbit Tricked Gudu Jack And The Beanstalk Jack My Hedgehog Jack The Giant-Killer Jackal and the Spring Jackal or Tiger? Jackal, the Dove, and the Panther Janni and the Draken Jesper Who Herded The Hares Jogi's Punishment Jorinde And Joringel Kari Woodengown King Frost King Kojata (From The Russian) King Lindorm King of the Waterfalls King Who Would Have a Beautiful Wife King Who Would See Paradise Kisa the Cat Kupti and Imani Lady of the Fountain. Land Of Souls Language of Beasts Laughing Eye and Weeping Eye, or the Limping Fox Lion and the Cat Little Golden Hood Little Good Mouse Little Gray Man Little Hare Little Lasse Little One-Eye, Little Two-Eyes, And Little Three-Eyes Little Red Riding Hood Little Soldier Little Thumb Little Wildrose Long, Broad, and Quickeye Long-bow Story Lovely Ilonka Lucky Luck Lute Player Madschun Magic Book Magic Kettle Magic Mirror Magic Ring Magic Swan Magician's Horse Maiden Bright-eye Maiden With The Wooden Helmet Man Without a Heart Manus Marvellous Musician Master and Pupil Master Cat; Or, Puss In Boots Master Thief Master-Maid Merry Wives Mink and the Wolf Minnikin Mogarzea And His Son Mohammed with the Magic Finger Monkey And The Jelly-Fish Mother Holle Moti' Motiratika Nettle Spinner Niels And The Giants Nightingale Nine Pea-Hens And The Golden Apples Norka Nunda, Eater Of People Ogre One-Handed Girl Owl and the Eagle Paperarelloo Partnership of the Thief and the Liar. Peter Bull Picking Flowers Pinkel the Thief Pivi and Kabo Pretty Goldilocks Prince Ahmed And The Fairy Paribanou Prince and Princess in the Forest Prince And The Dragon Prince and the Three Fates Prince Darling Prince Featherhead And The Princess Celandine Prince Fickle And Fair Helena (From The German) Prince Hyacinth And The Dear Little Princess Prince Narcissus And The Princess Potentilla Prince Ring Prince Vivien And The Princess Placida Prince Who Wanted To See The World Prince Who Would Seek Immortality Princess Bella-Flor Princess in the Chest Princess Mayblossom Princess Minon-minette Princess On The Glass Hill Princess Rosette Princess Who Was Hidden Underground Prunella Puddocky (From The German) Punishment of the Fairy Gangana Queen of the Flowery Isles Rapunzel Raspberry Worm Ratcatcher Red Etin Rich Brother and the Poor Brother Riddle Rogue And The Herdsman Rosanella Rover of the Plain Rubezahl Rumpelstiltzkin Sacred Milk of Koumongoe Samba the Coward Satin Surgeon Schippeitaro Sea King's Gift Seven Foals Sham Prince, Or The Ambitious Tailor Shepherd Paul Shifty Lad Shirt-collar Sigurd Silent Princess Simpleton Sister of the Sun Six Hungry Beasts Six Men Travelled Through The Wide World Six Sillies Six Swans Slaying of the Tanuki Sleeping Beauty In The Wood Snake Prince Snow-Daughter And The Fire-Son Snowdrop Snowflake Snow-man Snow-queen Snow-White And Rose-Red Snuff-Box Soria Moria Castle Sparrow with the Slit Tongue Spindle, Shuttle, And Needle Sprig of Rosemary Stalos Were Tricked Stan Bolovan Steadfast Tin-Soldier Steel Cane Stone-Cutter Stones of Plouhinec Story of Ciccu Story of Little King Loc Story of the Seven Simons Story of Zoulvisia Strange Adventures of Little Maia Street Musicians Strong Prince Sunchild Swineherd Sylvain And Jocosa Terrible Head Thanksgiving of the Wazir The Tontlawald Three Bears Three Brothers Three Crowns Three Dogs Three Dwarfs Three Little Pigs Three Musicians Three Princes And Their Beasts (Lithuanian Fairy Tale) Three Princesses Of Whiteland Three Robes Three Snake-Leaves Three Sons of Hali Three Treasures of the Giants Three Wonderful Beggars Thumbelina Tiidu The Piper Tinder-Box To Your Good Health! Toads And Diamonds Tortoise and of a Mischievous Monkey Treasure Seeker Tritill, Litill, And The Birds Troll's Daughter Trusty John Twelve Brothers Twelve Dancing Princesses Twelve Huntsmen Twin Brothers Two Brothers Two Caskets Two Frogs Two In A Sack Udea and Her Seven Brothers Ugly Duckling Underground Workers Unlooked-for Prince Uraschimataro and the Turtle Very Bad Boy Virgilius The Sorcerer Voice Of Death Voyage To Lilliput Wali Dad the Simple-Hearted War Of The Wolf And The Fox Water of Life Water-Lily. The Gold-Spinners What the Rose did to the Cypress Which was the Foolishest? White Cat White Doe White Dove White Duck White Slipper White Snake White Wolf Why The Sea Is Salt Wicked Tanuki Was Punished Wicked Wolverine Wild Animals Became Tame Ones Winning of Olwen Witch Witch And Her Servants Witch In The Stone Boat Wonderful Birch Wonderful Sheep Wonderful Tune. Wounded Lion Yara Yellow Dwarf Yellow Fairy Book Young Man Who Would Have His Eyes Opened Youth Who Set Out To Learn What Fear Was</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/30580">https://www.gutenberg.org/ebooks/30580</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

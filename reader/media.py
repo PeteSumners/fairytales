@@ -61,14 +61,14 @@ def similarity(a: str, b: str) -> float:
 class MediaManager:
     """Detects and manages available audio for stories."""
 
-    def __init__(self, cache_dir: Path):
-        self.cache_dir = cache_dir
+    def __init__(self, audio_dir: Path):
+        self.audio_dir = audio_dir
         self._audio_cache: Dict[str, List[Path]] = {}
         self._scan_media()
 
     def _scan_media(self):
-        """Scan cache directories for available audio."""
-        audio_dir = self.cache_dir / "audio"
+        """Scan audio directory for available audio."""
+        audio_dir = self.audio_dir
         if audio_dir.exists():
             for source_dir in audio_dir.iterdir():
                 if source_dir.is_dir():

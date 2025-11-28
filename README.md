@@ -87,8 +87,8 @@ fairytales/
 │   ├── cli.py            # Command-line interface
 │   ├── downloader.py     # Gutenberg downloader
 │   └── audio.py          # LibriVox downloader
-├── cache/                # Downloaded content (gitignored)
-└── output/               # Processed stories (gitignored)
+├── audio/                # LibriVox MP3 narrations (Git LFS)
+└── output/               # Processed story text
 ```
 
 ## License

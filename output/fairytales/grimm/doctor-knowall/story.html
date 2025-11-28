@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Knowall</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Doctor Knowall</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>3 min read</span>
+            <span>778 words</span>
+        </div>
+        
+        <div class="story-content">
+            <p>There was once upon a time a poor peasant called Crabb, who drove with</p>
+<p>two oxen a load of wood to the town, and sold it to a doctor for two</p>
+<p>talers. When the money was being counted out to him, it so happened that</p>
+<p>the doctor was sitting at table, and when the peasant saw how well he</p>
+<p>ate and drank, his heart desired what he saw, and would willingly</p>
+<p>have been a doctor too. So he remained standing a while, and at length</p>
+<p>inquired if he too could not be a doctor. ‘Oh, yes,’ said the doctor,</p>
+<p>‘that is soon managed.’ ‘What must I do?’ asked the peasant. ‘In the</p>
+<p>first place buy yourself an A B C book of the kind which has a cock on</p>
+<p>the frontispiece; in the second, turn your cart and your two oxen into</p>
+<p>money, and get yourself some clothes, and whatsoever else pertains to</p>
+<p>medicine; thirdly, have a sign painted for yourself with the words: “I</p>
+<p>am Doctor Knowall,” and have that nailed up above your house-door.’ The</p>
+<p>peasant did everything that he had been told to do. When he had doctored</p>
+<p>people awhile, but not long, a rich and great lord had some money</p>
+<p>stolen. Then he was told about Doctor Knowall who lived in such and such</p>
+<p>a village, and must know what had become of the money. So the lord had</p>
+<p>the horses harnessed to his carriage, drove out to the village, and</p>
+<p>asked Crabb if he were Doctor Knowall. Yes, he was, he said. Then he was</p>
+<p>to go with him and bring back the stolen money. ‘Oh, yes, but Grete, my</p>
+<p>wife, must go too.’ The lord was willing, and let both of them have a</p>
+<p>seat in the carriage, and they all drove away together. When they came</p>
+<p>to the nobleman’s castle, the table was spread, and Crabb was told to</p>
+<p>sit down and eat. ‘Yes, but my wife, Grete, too,’ said he, and he seated</p>
+<p>himself with her at the table. And when the first servant came with a</p>
+<p>dish of delicate fare, the peasant nudged his wife, and said: ‘Grete,</p>
+<p>that was the first,’ meaning that was the servant who brought the first</p>
+<p>dish. The servant, however, thought he intended by that to say: ‘That is</p>
+<p>the first thief,’ and as he actually was so, he was terrified, and said</p>
+<p>to his comrade outside: ‘The doctor knows all: we shall fare ill, he</p>
+<p>said I was the first.’ The second did not want to go in at all, but was</p>
+<p>forced. So when he went in with his dish, the peasant nudged his wife,</p>
+<p>and said: ‘Grete, that is the second.’ This servant was equally alarmed,</p>
+<p>and he got out as fast as he could. The third fared no better, for the</p>
+<p>peasant again said: ‘Grete, that is the third.’ The fourth had to carry</p>
+<p>in a dish that was covered, and the lord told the doctor that he was to</p>
+<p>show his skill, and guess what was beneath the cover. Actually, there</p>
+<p>were crabs. The doctor looked at the dish, had no idea what to say, and</p>
+<p>cried: ‘Ah, poor Crabb.’ When the lord heard that, he cried: ‘There! he</p>
+<p>knows it; he must also know who has the money!’</p>
+<p>On this the servants looked terribly uneasy, and made a sign to the</p>
+<p>doctor that they wished him to step outside for a moment. When therefore</p>
+<p>he went out, all four of them confessed to him that they had stolen</p>
+<p>the money, and said that they would willingly restore it and give him a</p>
+<p>heavy sum into the bargain, if he would not denounce them, for if he</p>
+<p>did they would be hanged. They led him to the spot where the money was</p>
+<p>concealed. With this the doctor was satisfied, and returned to the hall,</p>
+<p>sat down to the table, and said: ‘My lord, now will I search in my book</p>
+<p>where the gold is hidden.’ The fifth servant, however, crept into the</p>
+<p>stove to hear if the doctor knew still more. But the doctor sat still</p>
+<p>and opened his A B C book, turned the pages backwards and forwards, and</p>
+<p>looked for the cock. As he could not find it immediately he said: ‘I</p>
+<p>know you are there, so you had better come out!’ Then the fellow in the</p>
+<p>stove thought that the doctor meant him, and full of terror, sprang out,</p>
+<p>crying: ‘That man knows everything!’ Then Doctor Knowall showed the lord</p>
+<p>where the money was, but did not say who had stolen it, and received</p>
+<p>from both sides much money in reward, and became a renowned man.</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

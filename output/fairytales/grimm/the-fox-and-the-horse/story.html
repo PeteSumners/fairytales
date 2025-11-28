@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fox And The Horse</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>The Fox And The Horse</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>2 min read</span>
+            <span>490 words</span>
+        </div>
+        
+        <div class="story-content">
+            <p>A farmer had a horse that had been an excellent faithful servant to</p>
+<p>him: but he was now grown too old to work; so the farmer would give him</p>
+<p>nothing more to eat, and said, ‘I want you no longer, so take yourself</p>
+<p>off out of my stable; I shall not take you back again until you are</p>
+<p>stronger than a lion.’ Then he opened the door and turned him adrift.</p>
+<p>The poor horse was very melancholy, and wandered up and down in the</p>
+<p>wood, seeking some little shelter from the cold wind and rain. Presently</p>
+<p>a fox met him: ‘What’s the matter, my friend?’ said he, ‘why do you hang</p>
+<p>down your head and look so lonely and woe-begone?’ ‘Ah!’ replied the</p>
+<p>horse, ‘justice and avarice never dwell in one house; my master has</p>
+<p>forgotten all that I have done for him so many years, and because I</p>
+<p>can no longer work he has turned me adrift, and says unless I become</p>
+<p>stronger than a lion he will not take me back again; what chance can I</p>
+<p>have of that? he knows I have none, or he would not talk so.’</p>
+<p>However, the fox bid him be of good cheer, and said, ‘I will help you;</p>
+<p>lie down there, stretch yourself out quite stiff, and pretend to be</p>
+<p>dead.’ The horse did as he was told, and the fox went straight to the</p>
+<p>lion who lived in a cave close by, and said to him, ‘A little way off</p>
+<p>lies a dead horse; come with me and you may make an excellent meal of</p>
+<p>his carcase.’ The lion was greatly pleased, and set off immediately; and</p>
+<p>when they came to the horse, the fox said, ‘You will not be able to eat</p>
+<p>him comfortably here; I’ll tell you what--I will tie you fast to</p>
+<p>his tail, and then you can draw him to your den, and eat him at your</p>
+<p>leisure.’</p>
+<p>This advice pleased the lion, so he laid himself down quietly for the</p>
+<p>fox to make him fast to the horse. But the fox managed to tie his legs</p>
+<p>together and bound all so hard and fast that with all his strength he</p>
+<p>could not set himself free. When the work was done, the fox clapped the</p>
+<p>horse on the shoulder, and said, ‘Jip! Dobbin! Jip!’ Then up he sprang,</p>
+<p>and moved off, dragging the lion behind him. The beast began to roar</p>
+<p>and bellow, till all the birds of the wood flew away for fright; but the</p>
+<p>horse let him sing on, and made his way quietly over the fields to his</p>
+<p>master’s house.</p>
+<p>‘Here he is, master,’ said he, ‘I have got the better of him’: and when</p>
+<p>the farmer saw his old servant, his heart relented, and he said. ‘Thou</p>
+<p>shalt stay in thy stable and be well taken care of.’ And so the poor old</p>
+<p>horse had plenty to eat, and lived--till he died.</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

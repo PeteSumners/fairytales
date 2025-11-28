@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Turnip</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>The Turnip</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>5 min read</span>
+            <span>1,153 words</span>
+        </div>
+        
+        <div class="story-content">
+            <p>There were two brothers who were both soldiers; the one was rich and</p>
+<p>the other poor. The poor man thought he would try to better himself; so,</p>
+<p>pulling off his red coat, he became a gardener, and dug his ground well,</p>
+<p>and sowed turnips.</p>
+<p>When the seed came up, there was one plant bigger than all the rest; and</p>
+<p>it kept getting larger and larger, and seemed as if it would never cease</p>
+<p>growing; so that it might have been called the prince of turnips for</p>
+<p>there never was such a one seen before, and never will again. At last it</p>
+<p>was so big that it filled a cart, and two oxen could hardly draw it; and</p>
+<p>the gardener knew not what in the world to do with it, nor whether it</p>
+<p>would be a blessing or a curse to him. One day he said to himself, ‘What</p>
+<p>shall I do with it? if I sell it, it will bring no more than another;</p>
+<p>and for eating, the little turnips are better than this; the best thing</p>
+<p>perhaps is to carry it and give it to the king as a mark of respect.’</p>
+<p>Then he yoked his oxen, and drew the turnip to the court, and gave it</p>
+<p>to the king. ‘What a wonderful thing!’ said the king; ‘I have seen many</p>
+<p>strange things, but such a monster as this I never saw. Where did you</p>
+<p>get the seed? or is it only your good luck? If so, you are a true child</p>
+<p>of fortune.’ ‘Ah, no!’ answered the gardener, ‘I am no child of fortune;</p>
+<p>I am a poor soldier, who never could get enough to live upon; so I</p>
+<p>laid aside my red coat, and set to work, tilling the ground. I have a</p>
+<p>brother, who is rich, and your majesty knows him well, and all the world</p>
+<p>knows him; but because I am poor, everybody forgets me.’</p>
+<p>The king then took pity on him, and said, ‘You shall be poor no</p>
+<p>longer. I will give you so much that you shall be even richer than your</p>
+<p>brother.’ Then he gave him gold and lands and flocks, and made him so</p>
+<p>rich that his brother’s fortune could not at all be compared with his.</p>
+<p>When the brother heard of all this, and how a turnip had made the</p>
+<p>gardener so rich, he envied him sorely, and bethought himself how he</p>
+<p>could contrive to get the same good fortune for himself. However, he</p>
+<p>determined to manage more cleverly than his brother, and got together a</p>
+<p>rich present of gold and fine horses for the king; and thought he must</p>
+<p>have a much larger gift in return; for if his brother had received so</p>
+<p>much for only a turnip, what must his present be worth?</p>
+<p>The king took the gift very graciously, and said he knew not what to</p>
+<p>give in return more valuable and wonderful than the great turnip; so</p>
+<p>the soldier was forced to put it into a cart, and drag it home with him.</p>
+<p>When he reached home, he knew not upon whom to vent his rage and spite;</p>
+<p>and at length wicked thoughts came into his head, and he resolved to</p>
+<p>kill his brother.</p>
+<p>So he hired some villains to murder him; and having shown them where to</p>
+<p>lie in ambush, he went to his brother, and said, ‘Dear brother, I have</p>
+<p>found a hidden treasure; let us go and dig it up, and share it between</p>
+<p>us.’ The other had no suspicions of his roguery: so they went out</p>
+<p>together, and as they were travelling along, the murderers rushed out</p>
+<p>upon him, bound him, and were going to hang him on a tree.</p>
+<p>But whilst they were getting all ready, they heard the trampling of a</p>
+<p>horse at a distance, which so frightened them that they pushed their</p>
+<p>prisoner neck and shoulders together into a sack, and swung him up by a</p>
+<p>cord to the tree, where they left him dangling, and ran away. Meantime</p>
+<p>he worked and worked away, till he made a hole large enough to put out</p>
+<p>his head.</p>
+<p>When the horseman came up, he proved to be a student, a merry fellow,</p>
+<p>who was journeying along on his nag, and singing as he went. As soon as</p>
+<p>the man in the sack saw him passing under the tree, he cried out, ‘Good</p>
+<p>morning! good morning to thee, my friend!’ The student looked about</p>
+<p>everywhere; and seeing no one, and not knowing where the voice came</p>
+<p>from, cried out, ‘Who calls me?’</p>
+<p>Then the man in the tree answered, ‘Lift up thine eyes, for behold here</p>
+<p>I sit in the sack of wisdom; here have I, in a short time, learned great</p>
+<p>and wondrous things. Compared to this seat, all the learning of the</p>
+<p>schools is as empty air. A little longer, and I shall know all that man</p>
+<p>can know, and shall come forth wiser than the wisest of mankind. Here</p>
+<p>I discern the signs and motions of the heavens and the stars; the laws</p>
+<p>that control the winds; the number of the sands on the seashore; the</p>
+<p>healing of the sick; the virtues of all simples, of birds, and of</p>
+<p>precious stones. Wert thou but once here, my friend, though wouldst feel</p>
+<p>and own the power of knowledge.</p>
+<p>The student listened to all this and wondered much; at last he said,</p>
+<p>‘Blessed be the day and hour when I found you; cannot you contrive to</p>
+<p>let me into the sack for a little while?’ Then the other answered, as if</p>
+<p>very unwillingly, ‘A little space I may allow thee to sit here, if thou</p>
+<p>wilt reward me well and entreat me kindly; but thou must tarry yet an</p>
+<p>hour below, till I have learnt some little matters that are yet unknown</p>
+<p>to me.’</p>
+<p>So the student sat himself down and waited a while; but the time hung</p>
+<p>heavy upon him, and he begged earnestly that he might ascend forthwith,</p>
+<p>for his thirst for knowledge was great. Then the other pretended to give</p>
+<p>way, and said, ‘Thou must let the sack of wisdom descend, by untying</p>
+<p>yonder cord, and then thou shalt enter.’ So the student let him down,</p>
+<p>opened the sack, and set him free. ‘Now then,’ cried he, ‘let me ascend</p>
+<p>quickly.’ As he began to put himself into the sack heels first, ‘Wait a</p>
+<p>while,’ said the gardener, ‘that is not the way.’ Then he pushed him</p>
+<p>in head first, tied up the sack, and soon swung up the searcher after</p>
+<p>wisdom dangling in the air. ‘How is it with thee, friend?’ said he,</p>
+<p>‘dost thou not feel that wisdom comes unto thee? Rest there in peace,</p>
+<p>till thou art a wiser man than thou wert.’</p>
+<p>So saying, he trotted off on the student’s nag, and left the poor fellow</p>
+<p>to gather wisdom till somebody should come and let him down.</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

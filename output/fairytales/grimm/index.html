@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grimm's Fairy Tales - Fairytale Collection</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --card-bg: #fff;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --card-bg: #252545;
+                --border-color: #444;
+            }
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .story-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .story-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .story-card h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--accent-color);
+        }
+
+        .story-card .meta {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .story-card .warning {
+            font-size: 0.8rem;
+            color: #d9534f;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grimm's Fairy Tales</h1>
+    <p class="subtitle">By Brothers Grimm &mdash; 61 stories</p>
+
+    <div class="story-grid">
+        
+        <a href="ashputtel/story.html" class="story-card">
+            <h3>Ashputtel</h3>
+            <div class="meta">12 min read &mdash; 2,563 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="briar-rose/story.html" class="story-card">
+            <h3>Briar Rose</h3>
+            <div class="meta">7 min read &mdash; 1,510 words</div>
+            
+        </a>
+        
+
+        <a href="cat-and-mouse-in-partnership/story.html" class="story-card">
+            <h3>Cat And Mouse In Partnership</h3>
+            <div class="meta">4 min read &mdash; 975 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="cat-skin/story.html" class="story-card">
+            <h3>Cat-Skin</h3>
+            <div class="meta">10 min read &mdash; 2,125 words</div>
+            
+        </a>
+        
+
+        <a href="clever-elsie/story.html" class="story-card">
+            <h3>Clever Elsie</h3>
+            <div class="meta">6 min read &mdash; 1,335 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="clever-gretel/story.html" class="story-card">
+            <h3>Clever Gretel</h3>
+            <div class="meta">4 min read &mdash; 932 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="clever-hans/story.html" class="story-card">
+            <h3>Clever Hans</h3>
+            <div class="meta">4 min read &mdash; 895 words</div>
+            
+        </a>
+        
+
+        <a href="doctor-knowall/story.html" class="story-card">
+            <h3>Doctor Knowall</h3>
+            <div class="meta">3 min read &mdash; 778 words</div>
+            
+        </a>
+        
+
+        <a href="frederick-and-catherine/story.html" class="story-card">
+            <h3>Frederick And Catherine</h3>
+            <div class="meta">9 min read &mdash; 1,902 words</div>
+            
+        </a>
+        
+
+        <a href="fundevogel/story.html" class="story-card">
+            <h3>Fundevogel</h3>
+            <div class="meta">4 min read &mdash; 938 words</div>
+            
+        </a>
+        
+
+        <a href="hans-in-luck/story.html" class="story-card">
+            <h3>Hans In Luck</h3>
+            <div class="meta">11 min read &mdash; 2,351 words</div>
+            
+        </a>
+        
+
+        <a href="hansel-and-gretel/story.html" class="story-card">
+            <h3>Hansel And Gretel</h3>
+            <div class="meta">14 min read &mdash; 2,929 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="iron-hans/story.html" class="story-card">
+            <h3>Iron Hans</h3>
+            <div class="meta">16 min read &mdash; 3,208 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="jorinda-and-jorindel/story.html" class="story-card">
+            <h3>Jorinda And Jorindel</h3>
+            <div class="meta">5 min read &mdash; 1,133 words</div>
+            
+        </a>
+        
+
+        <a href="king-grisly-beard/story.html" class="story-card">
+            <h3>King Grisly-Beard</h3>
+            <div class="meta">7 min read &mdash; 1,469 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="lily-and-the-lion/story.html" class="story-card">
+            <h3>Lily And The Lion</h3>
+            <div class="meta">11 min read &mdash; 2,336 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="mother-holle/story.html" class="story-card">
+            <h3>Mother Holle</h3>
+            <div class="meta">13 min read &mdash; 2,651 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="old-sultan/story.html" class="story-card">
+            <h3>Old Sultan</h3>
+            <div class="meta">4 min read &mdash; 870 words</div>
+            
+        </a>
+        
+
+        <a href="rapunzel/story.html" class="story-card">
+            <h3>Rapunzel</h3>
+            <div class="meta">7 min read &mdash; 1,401 words</div>
+            
+        </a>
+        
+
+        <a href="rumpelstiltskin/story.html" class="story-card">
+            <h3>Rumpelstiltskin</h3>
+            <div class="meta">5 min read &mdash; 1,138 words</div>
+            
+        </a>
+        
+
+        <a href="second-story/story.html" class="story-card">
+            <h3>Second Story</h3>
+            <div class="meta">1 min read &mdash; 372 words</div>
+            
+        </a>
+        
+
+        <a href="snow-white-and-rose-red/story.html" class="story-card">
+            <h3>Snow-White And Rose-Red</h3>
+            <div class="meta">13 min read &mdash; 2,607 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="snowdrop/story.html" class="story-card">
+            <h3>Snowdrop</h3>
+            <div class="meta">11 min read &mdash; 2,380 words</div>
+            
+        </a>
+        
+
+        <a href="sweetheart-roland/story.html" class="story-card">
+            <h3>Sweetheart Roland</h3>
+            <div class="meta">7 min read &mdash; 1,473 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-adventures-of-chanticleer-and-partlet/story.html" class="story-card">
+            <h3>The Adventures Of Chanticleer And Partlet</h3>
+            <div class="meta">9 min read &mdash; 1,871 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-blue-light/story.html" class="story-card">
+            <h3>The Blue Light</h3>
+            <div class="meta">8 min read &mdash; 1,739 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-dog-and-the-sparrow/story.html" class="story-card">
+            <h3>The Dog And The Sparrow</h3>
+            <div class="meta">6 min read &mdash; 1,342 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-elves-and-the-shoemaker/story.html" class="story-card">
+            <h3>The Elves And The Shoemaker</h3>
+            <div class="meta">3 min read &mdash; 743 words</div>
+            
+        </a>
+        
+
+        <a href="the-fisherman-and-his-wife/story.html" class="story-card">
+            <h3>The Fisherman And His Wife</h3>
+            <div class="meta">10 min read &mdash; 2,115 words</div>
+            
+        </a>
+        
+
+        <a href="the-four-clever-brothers/story.html" class="story-card">
+            <h3>The Four Clever Brothers</h3>
+            <div class="meta">8 min read &mdash; 1,698 words</div>
+            
+        </a>
+        
+
+        <a href="the-fox-and-the-cat/story.html" class="story-card">
+            <h3>The Fox And The Cat</h3>
+            <div class="meta">1 min read &mdash; 292 words</div>
+            
+        </a>
+        
+
+        <a href="the-fox-and-the-horse/story.html" class="story-card">
+            <h3>The Fox And The Horse</h3>
+            <div class="meta">2 min read &mdash; 490 words</div>
+            
+        </a>
+        
+
+        <a href="the-frog-prince/story.html" class="story-card">
+            <h3>The Frog-Prince</h3>
+            <div class="meta">5 min read &mdash; 1,192 words</div>
+            
+        </a>
+        
+
+        <a href="the-golden-goose/story.html" class="story-card">
+            <h3>The Golden Goose</h3>
+            <div class="meta">7 min read &mdash; 1,582 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-goose-girl/story.html" class="story-card">
+            <h3>The Goose-Girl</h3>
+            <div class="meta">11 min read &mdash; 2,220 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-juniper-tree/story.html" class="story-card">
+            <h3>The Juniper-Tree</h3>
+            <div class="meta">15 min read &mdash; 3,077 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-king-of-the-golden-mountain/story.html" class="story-card">
+            <h3>The King Of The Golden Mountain</h3>
+            <div class="meta">12 min read &mdash; 2,468 words</div>
+            
+        </a>
+        
+
+        <a href="the-little-peasant/story.html" class="story-card">
+            <h3>The Little Peasant</h3>
+            <div class="meta">10 min read &mdash; 2,069 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-miser-in-the-bush/story.html" class="story-card">
+            <h3>The Miser In The Bush</h3>
+            <div class="meta">5 min read &mdash; 1,166 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-mouse-the-bird-and-the-sausage/story.html" class="story-card">
+            <h3>The Mouse, The Bird, And The Sausage</h3>
+            <div class="meta">3 min read &mdash; 704 words</div>
+            
+        </a>
+        
+
+        <a href="the-old-man-and-his-grandson/story.html" class="story-card">
+            <h3>The Old Man And His Grandson</h3>
+            <div class="meta">1 min read &mdash; 249 words</div>
+            
+        </a>
+        
+
+        <a href="the-pink/story.html" class="story-card">
+            <h3>The Pink</h3>
+            <div class="meta">8 min read &mdash; 1,799 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-queen-bee/story.html" class="story-card">
+            <h3>The Queen Bee</h3>
+            <div class="meta">4 min read &mdash; 850 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-raven/story.html" class="story-card">
+            <h3>The Raven</h3>
+            <div class="meta">12 min read &mdash; 2,412 words</div>
+            
+        </a>
+        
+
+        <a href="the-robber-bridegroom/story.html" class="story-card">
+            <h3>The Robber Bridegroom</h3>
+            <div class="meta">7 min read &mdash; 1,474 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-salad/story.html" class="story-card">
+            <h3>The Salad</h3>
+            <div class="meta">10 min read &mdash; 2,189 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-seven-ravens/story.html" class="story-card">
+            <h3>The Seven Ravens</h3>
+            <div class="meta">5 min read &mdash; 1,008 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-story-of-the-youth-who-went-forth-to-learn/story.html" class="story-card">
+            <h3>The Story Of The Youth Who Went Forth To Learn What Fear Was</h3>
+            <div class="meta">18 min read &mdash; 3,780 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-straw-the-coal-and-the-bean/story.html" class="story-card">
+            <h3>The Straw, The Coal, And The Bean</h3>
+            <div class="meta">2 min read &mdash; 503 words</div>
+            
+        </a>
+        
+
+        <a href="the-three-languages/story.html" class="story-card">
+            <h3>The Three Languages</h3>
+            <div class="meta">4 min read &mdash; 946 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-travelling-musicians/story.html" class="story-card">
+            <h3>The Travelling Musicians</h3>
+            <div class="meta">6 min read &mdash; 1,361 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-turnip/story.html" class="story-card">
+            <h3>The Turnip</h3>
+            <div class="meta">5 min read &mdash; 1,153 words</div>
+            
+        </a>
+        
+
+        <a href="the-twelve-dancing-princesses/story.html" class="story-card">
+            <h3>The Twelve Dancing Princesses</h3>
+            <div class="meta">8 min read &mdash; 1,601 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-twelve-huntsmen/story.html" class="story-card">
+            <h3>The Twelve Huntsmen</h3>
+            <div class="meta">5 min read &mdash; 1,059 words</div>
+            
+        </a>
+        
+
+        <a href="the-valiant-little-tailor/story.html" class="story-card">
+            <h3>The Valiant Little Tailor</h3>
+            <div class="meta">16 min read &mdash; 3,336 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-water-of-life/story.html" class="story-card">
+            <h3>The Water Of Life</h3>
+            <div class="meta">14 min read &mdash; 2,822 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-wedding-of-mrs-fox-first-story/story.html" class="story-card">
+            <h3>The Wedding Of Mrs Fox
+
+
+
+
+
+First Story</h3>
+            <div class="meta">2 min read &mdash; 409 words</div>
+            
+        </a>
+        
+
+        <a href="the-white-snake/story.html" class="story-card">
+            <h3>The White Snake</h3>
+            <div class="meta">8 min read &mdash; 1,601 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="the-willow-wren-and-the-bear/story.html" class="story-card">
+            <h3>The Willow-Wren And The Bear</h3>
+            <div class="meta">4 min read &mdash; 908 words</div>
+            
+        </a>
+        
+
+        <a href="the-wolf-and-the-seven-little-kids/story.html" class="story-card">
+            <h3>The Wolf And The Seven Little Kids</h3>
+            <div class="meta">5 min read &mdash; 1,099 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+
+        <a href="tom-thumb/story.html" class="story-card">
+            <h3>Tom Thumb</h3>
+            <div class="meta">12 min read &mdash; 2,501 words</div>
+            <div class="warning">Contains darker themes</div>
+        </a>
+        
+    </div>
+</body>
+</html>

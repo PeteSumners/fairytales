@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pink Fairy Book - Fairytale Collection</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --card-bg: #fff;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --card-bg: #252545;
+                --border-color: #444;
+            }
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .story-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .story-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .story-card h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--accent-color);
+        }
+
+        .story-card .meta {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .story-card .warning {
+            font-size: 0.8rem;
+            color: #d9534f;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Pink Fairy Book</h1>
+    <p class="subtitle">By Andrew Lang &mdash; 1 stories</p>
+
+    <div class="story-grid">
+        
+        <a href="pan-tadeusz-czyli/story.html" class="story-card">
+            <h3>Pan Tadeusz
+
+Czyli</h3>
+            <div class="meta">164 min read &mdash; 32,887 words</div>
+            
+        </a>
+        
+    </div>
+</body>
+</html>

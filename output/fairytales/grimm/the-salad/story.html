@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Salad</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>The Salad</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>10 min read</span>
+            <span>2,189 words</span>
+        </div>
+        <div class="warning">This story contains some darker themes.</div>
+        <div class="story-content">
+            <p>As a merry young huntsman was once going briskly along through a wood,</p>
+<p>there came up a little old woman, and said to him, ‘Good day, good day;</p>
+<p>you seem merry enough, but I am hungry and thirsty; do pray give me</p>
+<p>something to eat.’ The huntsman took pity on her, and put his hand in</p>
+<p>his pocket and gave her what he had. Then he wanted to go his way; but</p>
+<p>she took hold of him, and said, ‘Listen, my friend, to what I am going</p>
+<p>to tell you; I will reward you for your kindness; go your way, and after</p>
+<p>a little time you will come to a tree where you will see nine birds</p>
+<p>sitting on a cloak. Shoot into the midst of them, and one will fall down</p>
+<p>dead: the cloak will fall too; take it, it is a wishing-cloak, and when</p>
+<p>you wear it you will find yourself at any place where you may wish to</p>
+<p>be. Cut open the dead bird, take out its heart and keep it, and you will</p>
+<p>find a piece of gold under your pillow every morning when you rise. It</p>
+<p>is the bird’s heart that will bring you this good luck.’</p>
+<p>The huntsman thanked her, and thought to himself, ‘If all this does</p>
+<p>happen, it will be a fine thing for me.’ When he had gone a hundred</p>
+<p>steps or so, he heard a screaming and chirping in the branches over him,</p>
+<p>and looked up and saw a flock of birds pulling a cloak with their bills</p>
+<p>and feet; screaming, fighting, and tugging at each other as if</p>
+<p>each wished to have it himself. ‘Well,’ said the huntsman, ‘this is</p>
+<p>wonderful; this happens just as the old woman said’; then he shot into</p>
+<p>the midst of them so that their feathers flew all about. Off went the</p>
+<p>flock chattering away; but one fell down dead, and the cloak with it.</p>
+<p>Then the huntsman did as the old woman told him, cut open the bird, took</p>
+<p>out the heart, and carried the cloak home with him.</p>
+<p>The next morning when he awoke he lifted up his pillow, and there lay</p>
+<p>the piece of gold glittering underneath; the same happened next day, and</p>
+<p>indeed every day when he arose. He heaped up a great deal of gold, and</p>
+<p>at last thought to himself, ‘Of what use is this gold to me whilst I am</p>
+<p>at home? I will go out into the world and look about me.’</p>
+<p>Then he took leave of his friends, and hung his bag and bow about his</p>
+<p>neck, and went his way. It so happened that his road one day led through</p>
+<p>a thick wood, at the end of which was a large castle in a green meadow,</p>
+<p>and at one of the windows stood an old woman with a very beautiful young</p>
+<p>lady by her side looking about them. Now the old woman was a witch, and</p>
+<p>said to the young lady, ‘There is a young man coming out of the wood who</p>
+<p>carries a wonderful prize; we must get it away from him, my dear child,</p>
+<p>for it is more fit for us than for him. He has a bird’s heart that</p>
+<p>brings a piece of gold under his pillow every morning.’ Meantime the</p>
+<p>huntsman came nearer and looked at the lady, and said to himself, ‘I</p>
+<p>have been travelling so long that I should like to go into this castle</p>
+<p>and rest myself, for I have money enough to pay for anything I want’;</p>
+<p>but the real reason was, that he wanted to see more of the beautiful</p>
+<p>lady. Then he went into the house, and was welcomed kindly; and it was</p>
+<p>not long before he was so much in love that he thought of nothing else</p>
+<p>but looking at the lady’s eyes, and doing everything that she wished.</p>
+<p>Then the old woman said, ‘Now is the time for getting the bird’s heart.’</p>
+<p>So the lady stole it away, and he never found any more gold under his</p>
+<p>pillow, for it lay now under the young lady’s, and the old woman took it</p>
+<p>away every morning; but he was so much in love that he never missed his</p>
+<p>prize.</p>
+<p>‘Well,’ said the old witch, ‘we have got the bird’s heart, but not the</p>
+<p>wishing-cloak yet, and that we must also get.’ ‘Let us leave him that,’</p>
+<p>said the young lady; ‘he has already lost his wealth.’ Then the witch</p>
+<p>was very angry, and said, ‘Such a cloak is a very rare and wonderful</p>
+<p>thing, and I must and will have it.’ So she did as the old woman told</p>
+<p>her, and set herself at the window, and looked about the country and</p>
+<p>seemed very sorrowful; then the huntsman said, ‘What makes you so sad?’</p>
+<p>‘Alas! dear sir,’ said she, ‘yonder lies the granite rock where all the</p>
+<p>costly diamonds grow, and I want so much to go there, that whenever I</p>
+<p>think of it I cannot help being sorrowful, for who can reach it? only</p>
+<p>the birds and the flies--man cannot.’ ‘If that’s all your grief,’ said</p>
+<p>the huntsman, ‘I’ll take you there with all my heart’; so he drew her under</p>
+<p>his cloak, and the moment he wished to be on the granite mountain they</p>
+<p>were both there. The diamonds glittered so on all sides that they were</p>
+<p>delighted with the sight and picked up the finest. But the old witch</p>
+<p>made a deep sleep come upon him, and he said to the young lady, ‘Let us</p>
+<p>sit down and rest ourselves a little, I am so tired that I cannot stand</p>
+<p>any longer.’ So they sat down, and he laid his head in her lap and</p>
+<p>fell asleep; and whilst he was sleeping on she took the cloak from</p>
+<p>his shoulders, hung it on her own, picked up the diamonds, and wished</p>
+<p>herself home again.</p>
+<p>When he awoke and found that his lady had tricked him, and left him</p>
+<p>alone on the wild rock, he said, ‘Alas! what roguery there is in the</p>
+<p>world!’ and there he sat in great grief and fear, not knowing what to</p>
+<p>do. Now this rock belonged to fierce giants who lived upon it; and as</p>
+<p>he saw three of them striding about, he thought to himself, ‘I can only</p>
+<p>save myself by feigning to be asleep’; so he laid himself down as if he</p>
+<p>were in a sound sleep. When the giants came up to him, the first pushed</p>
+<p>him with his foot, and said, ‘What worm is this that lies here curled</p>
+<p>up?’ ‘Tread upon him and kill him,’ said the second. ‘It’s not worth the</p>
+<p>trouble,’ said the third; ‘let him live, he’ll go climbing higher up the</p>
+<p>mountain, and some cloud will come rolling and carry him away.’ And they</p>
+<p>passed on. But the huntsman had heard all they said; and as soon as they</p>
+<p>were gone, he climbed to the top of the mountain, and when he had sat</p>
+<p>there a short time a cloud came rolling around him, and caught him in a</p>
+<p>whirlwind and bore him along for some time, till it settled in a garden,</p>
+<p>and he fell quite gently to the ground amongst the greens and cabbages.</p>
+<p>Then he looked around him, and said, ‘I wish I had something to eat, if</p>
+<p>not I shall be worse off than before; for here I see neither apples</p>
+<p>nor pears, nor any kind of fruits, nothing but vegetables.’ At last he</p>
+<p>thought to himself, ‘I can eat salad, it will refresh and strengthen</p>
+<p>me.’ So he picked out a fine head and ate of it; but scarcely had he</p>
+<p>swallowed two bites when he felt himself quite changed, and saw with</p>
+<p>horror that he was turned into an ass. However, he still felt very</p>
+<p>hungry, and the salad tasted very nice; so he ate on till he came</p>
+<p>to another kind of salad, and scarcely had he tasted it when he felt</p>
+<p>another change come over him, and soon saw that he was lucky enough to</p>
+<p>have found his old shape again.</p>
+<p>Then he laid himself down and slept off a little of his weariness; and</p>
+<p>when he awoke the next morning he broke off a head both of the good and</p>
+<p>the bad salad, and thought to himself, ‘This will help me to my fortune</p>
+<p>again, and enable me to pay off some folks for their treachery.’ So he</p>
+<p>went away to try and find the castle of his friends; and after wandering</p>
+<p>about a few days he luckily found it. Then he stained his face all over</p>
+<p>brown, so that even his mother would not have known him, and went into</p>
+<p>the castle and asked for a lodging; ‘I am so tired,’ said he, ‘that I</p>
+<p>can go no farther.’ ‘Countryman,’ said the witch, ‘who are you? and what</p>
+<p>is your business?’ ‘I am,’ said he, ‘a messenger sent by the king to</p>
+<p>find the finest salad that grows under the sun. I have been lucky</p>
+<p>enough to find it, and have brought it with me; but the heat of the sun</p>
+<p>scorches so that it begins to wither, and I don’t know that I can carry</p>
+<p>it farther.’</p>
+<p>When the witch and the young lady heard of his beautiful salad, they</p>
+<p>longed to taste it, and said, ‘Dear countryman, let us just taste it.’</p>
+<p>‘To be sure,’ answered he; ‘I have two heads of it with me, and will</p>
+<p>give you one’; so he opened his bag and gave them the bad. Then the</p>
+<p>witch herself took it into the kitchen to be dressed; and when it was</p>
+<p>ready she could not wait till it was carried up, but took a few leaves</p>
+<p>immediately and put them in her mouth, and scarcely were they swallowed</p>
+<p>when she lost her own form and ran braying down into the court in the</p>
+<p>form of an ass. Now the servant-maid came into the kitchen, and seeing</p>
+<p>the salad ready, was going to carry it up; but on the way she too felt a</p>
+<p>wish to taste it as the old woman had done, and ate some leaves; so she</p>
+<p>also was turned into an ass and ran after the other, letting the dish</p>
+<p>with the salad fall on the ground. The messenger sat all this time with</p>
+<p>the beautiful young lady, and as nobody came with the salad and she</p>
+<p>longed to taste it, she said, ‘I don’t know where the salad can be.’</p>
+<p>Then he thought something must have happened, and said, ‘I will go</p>
+<p>into the kitchen and see.’ And as he went he saw two asses in the court</p>
+<p>running about, and the salad lying on the ground. ‘All right!’ said</p>
+<p>he; ‘those two have had their share.’ Then he took up the rest of</p>
+<p>the leaves, laid them on the dish and brought them to the young lady,</p>
+<p>saying, ‘I bring you the dish myself that you may not wait any longer.’</p>
+<p>So she ate of it, and like the others ran off into the court braying</p>
+<p>away.</p>
+<p>Then the huntsman washed his face and went into the court that they</p>
+<p>might know him. ‘Now you shall be paid for your roguery,’ said he; and</p>
+<p>tied them all three to a rope and took them along with him till he</p>
+<p>came to a mill and knocked at the window. ‘What’s the matter?’ said the</p>
+<p>miller. ‘I have three tiresome beasts here,’ said the other; ‘if you</p>
+<p>will take them, give them food and room, and treat them as I tell you,</p>
+<p>I will pay you whatever you ask.’ ‘With all my heart,’ said the miller;</p>
+<p>‘but how shall I treat them?’ Then the huntsman said, ‘Give the old</p>
+<p>one stripes three times a day and hay once; give the next (who was</p>
+<p>the servant-maid) stripes once a day and hay three times; and give</p>
+<p>the youngest (who was the beautiful lady) hay three times a day and</p>
+<p>no stripes’: for he could not find it in his heart to have her beaten.</p>
+<p>After this he went back to the castle, where he found everything he</p>
+<p>wanted.</p>
+<p>Some days after, the miller came to him and told him that the old ass</p>
+<p>was dead; ‘The other two,’ said he, ‘are alive and eat, but are so</p>
+<p>sorrowful that they cannot last long.’ Then the huntsman pitied them,</p>
+<p>and told the miller to drive them back to him, and when they came, he</p>
+<p>gave them some of the good salad to eat. And the beautiful young lady</p>
+<p>fell upon her knees before him, and said, ‘O dearest huntsman! forgive</p>
+<p>me all the ill I have done you; my mother forced me to it, it was</p>
+<p>against my will, for I always loved you very much. Your wishing-cloak</p>
+<p>hangs up in the closet, and as for the bird’s heart, I will give it you</p>
+<p>too.’ But he said, ‘Keep it, it will be just the same thing, for I mean</p>
+<p>to make you my wife.’ So they were married, and lived together very</p>
+<p>happily till they died.</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

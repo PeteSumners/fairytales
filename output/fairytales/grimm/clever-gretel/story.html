@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clever Gretel</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Clever Gretel</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>4 min read</span>
+            <span>932 words</span>
+        </div>
+        <div class="warning">This story contains some darker themes.</div>
+        <div class="story-content">
+            <p>There was once a cook named Gretel, who wore shoes with red heels, and</p>
+<p>when she walked out with them on, she turned herself this way and that,</p>
+<p>was quite happy and thought: ‘You certainly are a pretty girl!’ And when</p>
+<p>she came home she drank, in her gladness of heart, a draught of wine,</p>
+<p>and as wine excites a desire to eat, she tasted the best of whatever she</p>
+<p>was cooking until she was satisfied, and said: ‘The cook must know what</p>
+<p>the food is like.’</p>
+<p>It came to pass that the master one day said to her: ‘Gretel, there is a</p>
+<p>guest coming this evening; prepare me two fowls very daintily.’ ‘I will</p>
+<p>see to it, master,’ answered Gretel. She killed two fowls, scalded them,</p>
+<p>plucked them, put them on the spit, and towards evening set them before</p>
+<p>the fire, that they might roast. The fowls began to turn brown, and were</p>
+<p>nearly ready, but the guest had not yet arrived. Then Gretel called out</p>
+<p>to her master: ‘If the guest does not come, I must take the fowls away</p>
+<p>from the fire, but it will be a sin and a shame if they are not eaten</p>
+<p>the moment they are at their juiciest.’ The master said: ‘I will run</p>
+<p>myself, and fetch the guest.’ When the master had turned his back,</p>
+<p>Gretel laid the spit with the fowls on one side, and thought: ‘Standing</p>
+<p>so long by the fire there, makes one sweat and thirsty; who knows</p>
+<p>when they will come? Meanwhile, I will run into the cellar, and take a</p>
+<p>drink.’ She ran down, set a jug, said: ‘God bless it for you, Gretel,’</p>
+<p>and took a good drink, and thought that wine should flow on, and should</p>
+<p>not be interrupted, and took yet another hearty draught.</p>
+<p>Then she went and put the fowls down again to the fire, basted them,</p>
+<p>and drove the spit merrily round. But as the roast meat smelt so good,</p>
+<p>Gretel thought: ‘Something might be wrong, it ought to be tasted!’</p>
+<p>She touched it with her finger, and said: ‘Ah! how good fowls are! It</p>
+<p>certainly is a sin and a shame that they are not eaten at the right</p>
+<p>time!’ She ran to the window, to see if the master was not coming with</p>
+<p>his guest, but she saw no one, and went back to the fowls and thought:</p>
+<p>‘One of the wings is burning! I had better take it off and eat it.’</p>
+<p>So she cut it off, ate it, and enjoyed it, and when she had done, she</p>
+<p>thought: ‘The other must go down too, or else master will observe that</p>
+<p>something is missing.’ When the two wings were eaten, she went and</p>
+<p>looked for her master, and did not see him. It suddenly occurred to</p>
+<p>her: ‘Who knows? They are perhaps not coming at all, and have turned in</p>
+<p>somewhere.’ Then she said: ‘Well, Gretel, enjoy yourself, one fowl has</p>
+<p>been cut into, take another drink, and eat it up entirely; when it is</p>
+<p>eaten you will have some peace, why should God’s good gifts be spoilt?’</p>
+<p>So she ran into the cellar again, took an enormous drink and ate up the</p>
+<p>one chicken in great glee. When one of the chickens was swallowed down,</p>
+<p>and still her master did not come, Gretel looked at the other and said:</p>
+<p>‘What one is, the other should be likewise, the two go together; what’s</p>
+<p>right for the one is right for the other; I think if I were to take</p>
+<p>another draught it would do me no harm.’ So she took another hearty</p>
+<p>drink, and let the second chicken follow the first.</p>
+<p>While she was making the most of it, her master came and cried: ‘Hurry</p>
+<p>up, Gretel, the guest is coming directly after me!’ ‘Yes, sir, I will</p>
+<p>soon serve up,’ answered Gretel. Meantime the master looked to see that</p>
+<p>the table was properly laid, and took the great knife, wherewith he was</p>
+<p>going to carve the chickens, and sharpened it on the steps. Presently</p>
+<p>the guest came, and knocked politely and courteously at the house-door.</p>
+<p>Gretel ran, and looked to see who was there, and when she saw the guest,</p>
+<p>she put her finger to her lips and said: ‘Hush! hush! go away as quickly</p>
+<p>as you can, if my master catches you it will be the worse for you; he</p>
+<p>certainly did ask you to supper, but his intention is to cut off your</p>
+<p>two ears. Just listen how he is sharpening the knife for it!’ The guest</p>
+<p>heard the sharpening, and hurried down the steps again as fast as he</p>
+<p>could. Gretel was not idle; she ran screaming to her master, and cried:</p>
+<p>‘You have invited a fine guest!’ ‘Why, Gretel? What do you mean by</p>
+<p>that?’ ‘Yes,’ said she, ‘he has taken the chickens which I was just</p>
+<p>going to serve up, off the dish, and has run away with them!’ ‘That’s a</p>
+<p>nice trick!’ said her master, and lamented the fine chickens. ‘If he had</p>
+<p>but left me one, so that something remained for me to eat.’ He called to</p>
+<p>him to stop, but the guest pretended not to hear. Then he ran after him</p>
+<p>with the knife still in his hand, crying: ‘Just one, just one,’ meaning</p>
+<p>that the guest should leave him just one chicken, and not take both. The</p>
+<p>guest, however, thought no otherwise than that he was to give up one of</p>
+<p>his ears, and ran as if fire were burning under him, in order to take</p>
+<p>them both with him.</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

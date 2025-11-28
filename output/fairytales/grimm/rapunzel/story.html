@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapunzel</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Rapunzel</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>7 min read</span>
+            <span>1,401 words</span>
+        </div>
+        
+        <div class="story-content">
+            <p>There were once a man and a woman who had long in vain wished for a</p>
+<p>child. At length the woman hoped that God was about to grant her desire.</p>
+<p>These people had a little window at the back of their house from which</p>
+<p>a splendid garden could be seen, which was full of the most beautiful</p>
+<p>flowers and herbs. It was, however, surrounded by a high wall, and no</p>
+<p>one dared to go into it because it belonged to an enchantress, who had</p>
+<p>great power and was dreaded by all the world. One day the woman was</p>
+<p>standing by this window and looking down into the garden, when she saw a</p>
+<p>bed which was planted with the most beautiful rampion (rapunzel), and it</p>
+<p>looked so fresh and green that she longed for it, she quite pined away,</p>
+<p>and began to look pale and miserable. Then her husband was alarmed, and</p>
+<p>asked: ‘What ails you, dear wife?’ ‘Ah,’ she replied, ‘if I can’t eat</p>
+<p>some of the rampion, which is in the garden behind our house, I shall</p>
+<p>die.’ The man, who loved her, thought: ‘Sooner than let your wife die,</p>
+<p>bring her some of the rampion yourself, let it cost what it will.’</p>
+<p>At twilight, he clambered down over the wall into the garden of the</p>
+<p>enchantress, hastily clutched a handful of rampion, and took it to his</p>
+<p>wife. She at once made herself a salad of it, and ate it greedily. It</p>
+<p>tasted so good to her--so very good, that the next day she longed for it</p>
+<p>three times as much as before. If he was to have any rest, her husband</p>
+<p>must once more descend into the garden. In the gloom of evening</p>
+<p>therefore, he let himself down again; but when he had clambered down the</p>
+<p>wall he was terribly afraid, for he saw the enchantress standing before</p>
+<p>him. ‘How can you dare,’ said she with angry look, ‘descend into my</p>
+<p>garden and steal my rampion like a thief? You shall suffer for it!’</p>
+<p>‘Ah,’ answered he, ‘let mercy take the place of justice, I only made</p>
+<p>up my mind to do it out of necessity. My wife saw your rampion from the</p>
+<p>window, and felt such a longing for it that she would have died if she</p>
+<p>had not got some to eat.’ Then the enchantress allowed her anger to be</p>
+<p>softened, and said to him: ‘If the case be as you say, I will allow</p>
+<p>you to take away with you as much rampion as you will, only I make one</p>
+<p>condition, you must give me the child which your wife will bring into</p>
+<p>the world; it shall be well treated, and I will care for it like a</p>
+<p>mother.’ The man in his terror consented to everything, and when the</p>
+<p>woman was brought to bed, the enchantress appeared at once, gave the</p>
+<p>child the name of Rapunzel, and took it away with her.</p>
+<p>Rapunzel grew into the most beautiful child under the sun. When she was</p>
+<p>twelve years old, the enchantress shut her into a tower, which lay in</p>
+<p>a forest, and had neither stairs nor door, but quite at the top was a</p>
+<p>little window. When the enchantress wanted to go in, she placed herself</p>
+<p>beneath it and cried:</p>
+<p>‘Rapunzel, Rapunzel,</p>
+<p>Let down your hair to me.’</p>
+<p>Rapunzel had magnificent long hair, fine as spun gold, and when she</p>
+<p>heard the voice of the enchantress she unfastened her braided tresses,</p>
+<p>wound them round one of the hooks of the window above, and then the hair</p>
+<p>fell twenty ells down, and the enchantress climbed up by it.</p>
+<p>After a year or two, it came to pass that the king’s son rode through</p>
+<p>the forest and passed by the tower. Then he heard a song, which was so</p>
+<p>charming that he stood still and listened. This was Rapunzel, who in her</p>
+<p>solitude passed her time in letting her sweet voice resound. The king’s</p>
+<p>son wanted to climb up to her, and looked for the door of the tower,</p>
+<p>but none was to be found. He rode home, but the singing had so deeply</p>
+<p>touched his heart, that every day he went out into the forest and</p>
+<p>listened to it. Once when he was thus standing behind a tree, he saw</p>
+<p>that an enchantress came there, and he heard how she cried:</p>
+<p>‘Rapunzel, Rapunzel,</p>
+<p>Let down your hair to me.’</p>
+<p>Then Rapunzel let down the braids of her hair, and the enchantress</p>
+<p>climbed up to her. ‘If that is the ladder by which one mounts, I too</p>
+<p>will try my fortune,’ said he, and the next day when it began to grow</p>
+<p>dark, he went to the tower and cried:</p>
+<p>‘Rapunzel, Rapunzel,</p>
+<p>Let down your hair to me.’</p>
+<p>Immediately the hair fell down and the king’s son climbed up.</p>
+<p>At first Rapunzel was terribly frightened when a man, such as her eyes</p>
+<p>had never yet beheld, came to her; but the king’s son began to talk to</p>
+<p>her quite like a friend, and told her that his heart had been so stirred</p>
+<p>that it had let him have no rest, and he had been forced to see her.</p>
+<p>Then Rapunzel lost her fear, and when he asked her if she would take</p>
+<p>him for her husband, and she saw that he was young and handsome, she</p>
+<p>thought: ‘He will love me more than old Dame Gothel does’; and she said</p>
+<p>yes, and laid her hand in his. She said: ‘I will willingly go away with</p>
+<p>you, but I do not know how to get down. Bring with you a skein of silk</p>
+<p>every time that you come, and I will weave a ladder with it, and when</p>
+<p>that is ready I will descend, and you will take me on your horse.’ They</p>
+<p>agreed that until that time he should come to her every evening, for the</p>
+<p>old woman came by day. The enchantress remarked nothing of this, until</p>
+<p>once Rapunzel said to her: ‘Tell me, Dame Gothel, how it happens that</p>
+<p>you are so much heavier for me to draw up than the young king’s son--he</p>
+<p>is with me in a moment.’ ‘Ah! you wicked child,’ cried the enchantress.</p>
+<p>‘What do I hear you say! I thought I had separated you from all</p>
+<p>the world, and yet you have deceived me!’ In her anger she clutched</p>
+<p>Rapunzel’s beautiful tresses, wrapped them twice round her left hand,</p>
+<p>seized a pair of scissors with the right, and snip, snap, they were cut</p>
+<p>off, and the lovely braids lay on the ground. And she was so pitiless</p>
+<p>that she took poor Rapunzel into a desert where she had to live in great</p>
+<p>grief and misery.</p>
+<p>On the same day that she cast out Rapunzel, however, the enchantress</p>
+<p>fastened the braids of hair, which she had cut off, to the hook of the</p>
+<p>window, and when the king’s son came and cried:</p>
+<p>‘Rapunzel, Rapunzel,</p>
+<p>Let down your hair to me.’</p>
+<p>she let the hair down. The king’s son ascended, but instead of finding</p>
+<p>his dearest Rapunzel, he found the enchantress, who gazed at him with</p>
+<p>wicked and venomous looks. ‘Aha!’ she cried mockingly, ‘you would fetch</p>
+<p>your dearest, but the beautiful bird sits no longer singing in the nest;</p>
+<p>the cat has got it, and will scratch out your eyes as well. Rapunzel is</p>
+<p>lost to you; you will never see her again.’ The king’s son was beside</p>
+<p>himself with pain, and in his despair he leapt down from the tower. He</p>
+<p>escaped with his life, but the thorns into which he fell pierced his</p>
+<p>eyes. Then he wandered quite blind about the forest, ate nothing but</p>
+<p>roots and berries, and did naught but lament and weep over the loss of</p>
+<p>his dearest wife. Thus he roamed about in misery for some years, and at</p>
+<p>length came to the desert where Rapunzel, with the twins to which she</p>
+<p>had given birth, a boy and a girl, lived in wretchedness. He heard a</p>
+<p>voice, and it seemed so familiar to him that he went towards it, and</p>
+<p>when he approached, Rapunzel knew him and fell on his neck and wept. Two</p>
+<p>of her tears wetted his eyes and they grew clear again, and he could</p>
+<p>see with them as before. He led her to his kingdom where he was</p>
+<p>joyfully received, and they lived for a long time afterwards, happy and</p>
+<p>contented.</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>

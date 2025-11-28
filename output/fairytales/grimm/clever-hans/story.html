@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clever Hans</title>
+    <style>
+        :root {
+            --bg-color: #fdf6e3;
+            --text-color: #333;
+            --accent-color: #8b4513;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a2e;
+                --text-color: #eee;
+                --accent-color: #d4a574;
+                --border-color: #444;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 1rem;
+        }
+
+        .metadata {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metadata span {
+            margin: 0 1rem;
+        }
+
+        .story-content p {
+            text-indent: 2em;
+            margin: 1em 0;
+            text-align: justify;
+        }
+
+        .story-content p:first-of-type {
+            text-indent: 0;
+        }
+
+        .story-content p:first-of-type::first-letter {
+            font-size: 3.5em;
+            float: left;
+            line-height: 1;
+            padding-right: 0.1em;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .warning {
+                background: #3d3200;
+                border-color: #665200;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Clever Hans</h1>
+        <div class="metadata">
+            <span>By Brothers Grimm</span>
+            <span>4 min read</span>
+            <span>895 words</span>
+        </div>
+        
+        <div class="story-content">
+            <p>The mother of Hans said: ‘Whither away, Hans?’ Hans answered: ‘To</p>
+<p>Gretel.’ ‘Behave well, Hans.’ ‘Oh, I’ll behave well. Goodbye, mother.’</p>
+<p>‘Goodbye, Hans.’ Hans comes to Gretel. ‘Good day, Gretel.’ ‘Good day,</p>
+<p>Hans. What do you bring that is good?’ ‘I bring nothing, I want to have</p>
+<p>something given me.’ Gretel presents Hans with a needle, Hans says:</p>
+<p>‘Goodbye, Gretel.’ ‘Goodbye, Hans.’</p>
+<p>Hans takes the needle, sticks it into a hay-cart, and follows the cart</p>
+<p>home. ‘Good evening, mother.’ ‘Good evening, Hans. Where have you been?’</p>
+<p>‘With Gretel.’ ‘What did you take her?’ ‘Took nothing; had something</p>
+<p>given me.’ ‘What did Gretel give you?’ ‘Gave me a needle.’ ‘Where is the</p>
+<p>needle, Hans?’ ‘Stuck in the hay-cart.’ ‘That was ill done, Hans. You</p>
+<p>should have stuck the needle in your sleeve.’ ‘Never mind, I’ll do</p>
+<p>better next time.’</p>
+<p>‘Whither away, Hans?’ ‘To Gretel, mother.’ ‘Behave well, Hans.’ ‘Oh,</p>
+<p>I’ll behave well. Goodbye, mother.’ ‘Goodbye, Hans.’ Hans comes to</p>
+<p>Gretel. ‘Good day, Gretel.’ ‘Good day, Hans. What do you bring that is</p>
+<p>good?’ ‘I bring nothing. I want to have something given to me.’ Gretel</p>
+<p>presents Hans with a knife. ‘Goodbye, Gretel.’ ‘Goodbye, Hans.’ Hans</p>
+<p>takes the knife, sticks it in his sleeve, and goes home. ‘Good evening,</p>
+<p>mother.’ ‘Good evening, Hans. Where have you been?’ ‘With Gretel.’ What</p>
+<p>did you take her?’ ‘Took her nothing, she gave me something.’ ‘What did</p>
+<p>Gretel give you?’ ‘Gave me a knife.’ ‘Where is the knife, Hans?’ ‘Stuck</p>
+<p>in my sleeve.’ ‘That’s ill done, Hans, you should have put the knife in</p>
+<p>your pocket.’ ‘Never mind, will do better next time.’</p>
+<p>‘Whither away, Hans?’ ‘To Gretel, mother.’ ‘Behave well, Hans.’ ‘Oh,</p>
+<p>I’ll behave well. Goodbye, mother.’ ‘Goodbye, Hans.’ Hans comes to</p>
+<p>Gretel. ‘Good day, Gretel.’ ‘Good day, Hans. What good thing do you</p>
+<p>bring?’ ‘I bring nothing, I want something given me.’ Gretel presents</p>
+<p>Hans with a young goat. ‘Goodbye, Gretel.’ ‘Goodbye, Hans.’ Hans takes</p>
+<p>the goat, ties its legs, and puts it in his pocket. When he gets home it</p>
+<p>is suffocated. ‘Good evening, mother.’ ‘Good evening, Hans. Where have</p>
+<p>you been?’ ‘With Gretel.’ ‘What did you take her?’ ‘Took nothing, she</p>
+<p>gave me something.’ ‘What did Gretel give you?’ ‘She gave me a goat.’</p>
+<p>‘Where is the goat, Hans?’ ‘Put it in my pocket.’ ‘That was ill done,</p>
+<p>Hans, you should have put a rope round the goat’s neck.’ ‘Never mind,</p>
+<p>will do better next time.’</p>
+<p>‘Whither away, Hans?’ ‘To Gretel, mother.’ ‘Behave well, Hans.’ ‘Oh,</p>
+<p>I’ll behave well. Goodbye, mother.’ ‘Goodbye, Hans.’ Hans comes to</p>
+<p>Gretel. ‘Good day, Gretel.’ ‘Good day, Hans. What good thing do you</p>
+<p>bring?’ ‘I bring nothing, I want something given me.’ Gretel presents</p>
+<p>Hans with a piece of bacon. ‘Goodbye, Gretel.’ ‘Goodbye, Hans.’</p>
+<p>Hans takes the bacon, ties it to a rope, and drags it away behind him.</p>
+<p>The dogs come and devour the bacon. When he gets home, he has the rope</p>
+<p>in his hand, and there is no longer anything hanging on to it. ‘Good</p>
+<p>evening, mother.’ ‘Good evening, Hans. Where have you been?’ ‘With</p>
+<p>Gretel.’ ‘What did you take her?’ ‘I took her nothing, she gave me</p>
+<p>something.’ ‘What did Gretel give you?’ ‘Gave me a bit of bacon.’ ‘Where</p>
+<p>is the bacon, Hans?’ ‘I tied it to a rope, brought it home, dogs took</p>
+<p>it.’ ‘That was ill done, Hans, you should have carried the bacon on your</p>
+<p>head.’ ‘Never mind, will do better next time.’</p>
+<p>‘Whither away, Hans?’ ‘To Gretel, mother.’ ‘Behave well, Hans.’ ‘I’ll</p>
+<p>behave well. Goodbye, mother.’ ‘Goodbye, Hans.’ Hans comes to Gretel.</p>
+<p>‘Good day, Gretel.’ ‘Good day, Hans, What good thing do you bring?’ ‘I</p>
+<p>bring nothing, but would have something given.’ Gretel presents Hans</p>
+<p>with a calf. ‘Goodbye, Gretel.’ ‘Goodbye, Hans.’</p>
+<p>Hans takes the calf, puts it on his head, and the calf kicks his face.</p>
+<p>‘Good evening, mother.’ ‘Good evening, Hans. Where have you been?’ ‘With</p>
+<p>Gretel.’ ‘What did you take her?’ ‘I took nothing, but had something</p>
+<p>given me.’ ‘What did Gretel give you?’ ‘A calf.’ ‘Where have you the</p>
+<p>calf, Hans?’ ‘I set it on my head and it kicked my face.’ ‘That was</p>
+<p>ill done, Hans, you should have led the calf, and put it in the stall.’</p>
+<p>‘Never mind, will do better next time.’</p>
+<p>‘Whither away, Hans?’ ‘To Gretel, mother.’ ‘Behave well, Hans.’ ‘I’ll</p>
+<p>behave well. Goodbye, mother.’ ‘Goodbye, Hans.’</p>
+<p>Hans comes to Gretel. ‘Good day, Gretel.’ ‘Good day, Hans. What good</p>
+<p>thing do you bring?’ ‘I bring nothing, but would have something given.’</p>
+<p>Gretel says to Hans: ‘I will go with you.’</p>
+<p>Hans takes Gretel, ties her to a rope, leads her to the rack, and binds</p>
+<p>her fast. Then Hans goes to his mother. ‘Good evening, mother.’ ‘Good</p>
+<p>evening, Hans. Where have you been?’ ‘With Gretel.’ ‘What did you take</p>
+<p>her?’ ‘I took her nothing.’ ‘What did Gretel give you?’ ‘She gave me</p>
+<p>nothing, she came with me.’ ‘Where have you left Gretel?’ ‘I led her by</p>
+<p>the rope, tied her to the rack, and scattered some grass for her.’ ‘That</p>
+<p>was ill done, Hans, you should have cast friendly eyes on her.’ ‘Never</p>
+<p>mind, will do better.’</p>
+<p>Hans went into the stable, cut out all the calves’ and sheep’s eyes,</p>
+<p>and threw them in Gretel’s face. Then Gretel became angry, tore herself</p>
+<p>loose and ran away, and was no longer the bride of Hans.</p>
+        </div>
+    </article>
+    <footer>
+        <p>Source: <a href="https://www.gutenberg.org/ebooks/2591">https://www.gutenberg.org/ebooks/2591</a></p>
+        <p>Generated by Fairytale Collector</p>
+    </footer>
+</body>
+</html>
